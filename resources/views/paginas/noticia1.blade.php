@@ -10,18 +10,18 @@
         <div class="container mx-auto px-5"> {{-- ESTE ES EL DIV CLAVE PARA LOS MÁRGENES --}}
             <div class="w-full mb-12"> {{-- Contenedor de la primera noticia --}}
                 <x-sliderNoticiero :images="[
-                    asset('img/noticias/EVENTO UARM/2B9A1417.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1433.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1452.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1462.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1480.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1496.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1518.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1521.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1522.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1553.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1588.jpg'),
-                    asset('img/noticias/EVENTO UARM/2B9A1625.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1417.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1433.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1452.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1462.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1480.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1496.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1518.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1521.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1522.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1553.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1588.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1625.jpg'),
                 ]" />
 
                 {{-- Aquí ajustamos el padding del texto para que no se extienda demasiado en pantallas grandes --}}
@@ -59,7 +59,7 @@
 
             <x-noticias :noticias="[
                 [
-                    'imagen' => asset('img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
                     'titulo' => 'El JNE inspira a los jóvenes de la UPN a sumarse al voluntariado electoral',
                     'descripcion' =>
                         'En un evento especial en la Universidad Privada del Norte, el Jurado Nacional de Elecciones invitó a los estudiantes a ser parte del Programa del Voluntariado.',
@@ -67,7 +67,7 @@
                     'fecha' => '03 de Julio, 2025',
                 ],
                 [
-                    'imagen' => asset('img/noticias/JNE/Pueblo Afroperuano2.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano2.jpg'),
                     'titulo' => 'JNE presenta Guía para fortalecer la igualdad y la inclusión del Pueblo Afroperuano',
                     'descripcion' =>
                         'El JNE presentará una guía elaborada con participación activa del Pueblo Afroperuano para promover su inclusión política y ...',

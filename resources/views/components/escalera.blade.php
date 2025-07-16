@@ -40,7 +40,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('img/ROJO.png') }}" alt="Icono Rojo" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/ROJO.png') }}" alt="Icono Rojo" class="img-icono">
                 </div>
             </button>
         </div>
@@ -87,7 +87,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('img/TURQUEZA.png') }}" alt="Icono Turquesa" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/TURQUEZA.png') }}" alt="Icono Turquesa" class="img-icono">
                 </div>
             </button>
         </div>
@@ -134,7 +134,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('img/DORADO.png') }}" alt="Icono Dorado" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/DORADO.png') }}" alt="Icono Dorado" class="img-icono">
                 </div>
             </button>
         </div>
@@ -181,7 +181,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('img/AZUL.png') }}" alt="Icono Azul" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/AZUL.png') }}" alt="Icono Azul" class="img-icono">
                 </div>
             </button>
         </div>

@@ -6,22 +6,22 @@
         info: {
             titulo: 'RECURSOS DE INFORMACIÓN ELECTORAL',
             descripcion: 'PARA LA COMPRENSIÓN DE LA IMPORTANCIA DE LA PARTICIPACIÓN POLÍTICA',
-            icono: '{{ asset('img/AZUL.png') }}' // Icono para Información
+            icono: '{{ asset('/DnefDocumentos/public/img/AZUL.png') }}' // Icono para Información
         },
         comunicacion: {
             titulo: 'COMUNICACIÓN PARA FORJAR',
             descripcion: 'PARA FORJAR EL COMPROMISO DEMOCRÁTICO',
-            icono: '{{ asset('img/DORADO.png') }}' // Icono para Comunicación
+            icono: '{{ asset('/DnefDocumentos/public/img/DORADO.png') }}' // Icono para Comunicación
         },
         formacion: {
             titulo: 'FORMACIÓN',
             descripcion: 'PARA CULTIVAR EL ANÁLISIS CRÍTICO',
-            icono: '{{ asset('img/TURQUEZA.png') }}' // Icono para Formación
+            icono: '{{ asset('/DnefDocumentos/public/img/TURQUEZA.png') }}' // Icono para Formación
         },
         participacion: {
             titulo: 'PARTICIPACIÓN POLÍTICA',
             descripcion: 'PARA LA IMPLICACIÓN Y LA ACCIÓN CIUDADANA',
-            icono: '{{ asset('img/ROJO.png') }}' // Icono para Participación
+            icono: '{{ asset('/DnefDocumentos/public/img/ROJO.png') }}' // Icono para Participación
         }
     },
     colorTitulo() {
@@ -53,10 +53,10 @@
 
      <div class="order-2 flex items-center justify-center {{-- p-4 ELIMINADO DE AQUÍ --}}
         lg:col-span-3 lg:row-span-4 lg:col-start-1 lg:row-start-2 lg:p-0">
-        <img :src="imagenActiva === 'info' ? '{{ asset('img/ELECTORAL1.png') }}' :
-            imagenActiva === 'comunicacion' ? '{{ asset('img/COMUNICACION-IMG.png') }}' :
-            imagenActiva === 'formacion' ? '{{ asset('img/FORMACION-IMG.png') }}' :
-            '{{ asset('img/PARTICIPACION-IMG.png') }}'"
+        <img :src="imagenActiva === 'info' ? '{{ asset('/DnefDocumentos/public/img/ELECTORAL1.png') }}' :
+            imagenActiva === 'comunicacion' ? '{{ asset('/DnefDocumentos/public/img/COMUNICACION-IMG.png') }}' :
+            imagenActiva === 'formacion' ? '{{ asset('/DnefDocumentos/public/img/FORMACION-IMG.png') }}' :
+            '{{ asset('/DnefDocumentos/public/img/PARTICIPACION-IMG.png') }}'"
             alt="Imagen dinámica" class="max-w-[95%] sm:max-w-[90%] lg:max-w-[78%] h-auto object-contain transition duration-300 ease-in-out">
     </div>
 

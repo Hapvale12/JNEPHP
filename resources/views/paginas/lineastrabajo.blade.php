@@ -13,7 +13,7 @@
 
                 <div class="w-full lg:w-3/4 flex justify-center lg:justify-end items-center order-1 lg:order-2">
                     {{-- CAMBIO: order-1 lg:order-2 para controlar el orden --}}
-                    <img src="{{ asset('img/lineas de trabajo/nosotros-inter.png') }}" alt="Decoración"
+                    <img src="{{ asset('/DnefDocumentos/public/img/lineas de trabajo/nosotros-inter.png') }}" alt="Decoración"
                         class="object-contain max-h-[25rem] md:max-h-[35rem] lg:max-h-[50rem] w-[90%]" />
                 </div>
 
@@ -47,7 +47,7 @@
 
                 <div
                     class="bg-white max-w-2xs mx-auto shadow-[0_8px_30px_rgba(0,0,0,0.35)] p-4 flex flex-col items-center text-center min-h-[460px]">
-                    <img src="{{ asset('img/lineas de trabajo/Mesa de trabajo 6.png') }}" alt="Igualdad Política"
+                    <img src="{{ asset('/DnefDocumentos/public/img/lineas de trabajo/Mesa de trabajo 6.png') }}" alt="Igualdad Política"
                         class="h-52 object-contain">
                     <p class="text-xl text-gray-700 mb-6">
                         Promueve la participación política de mujeres, pueblos indígenas, afroperuanos y personas con
@@ -61,7 +61,7 @@
 
                 <div
                     class="bg-white max-w-2xs mx-auto shadow-[0_8px_30px_rgba(0,0,0,0.35)] p-4 flex flex-col items-center text-center min-h-[460px]">
-                    <img src="{{ asset('img/lineas de trabajo/Mesa de trabajo 7.png') }}" alt="Voto Informado"
+                    <img src="{{ asset('/DnefDocumentos/public/img/lineas de trabajo/Mesa de trabajo 7.png') }}" alt="Voto Informado"
                         class="h-52 object-contain mb-4">
                     <p class="text-xl text-gray-700 mb-6">
                         Orienta a electores y organizaciones políticas con enfoque cívico y electoral.
@@ -74,7 +74,7 @@
 
                 <div
                     class="bg-white max-w-2xs mx-auto shadow-[0_8px_30px_rgba(0,0,0,0.35)] p-4 flex flex-col items-center text-center min-h-[460px]">
-                    <img src="{{ asset('img/lineas de trabajo/Mesa de trabajo 1.png') }}" alt="Voluntariado"
+                    <img src="{{ asset('/DnefDocumentos/public/img/lineas de trabajo/Mesa de trabajo 1.png') }}" alt="Voluntariado"
                         class="h-52 object-contain">
                     <p class="text-xl text-gray-700 mb-6">
                         Impulsa la inclusión juvenil en la vida política y social para fortalecer la ciudadanía y
@@ -88,7 +88,7 @@
 
                 <div
                     class="bg-white max-w-2xs mx-auto shadow-[0_8px_30px_rgba(0,0,0,0.35)] p-4 flex flex-col items-center text-center min-h-[460px]">
-                    <img src="{{ asset('img/lineas de trabajo/Mesa de trabajo 8.png') }}" alt="Zona Educativa"
+                    <img src="{{ asset('/DnefDocumentos/public/img/lineas de trabajo/Mesa de trabajo 8.png') }}" alt="Zona Educativa"
                         class="h-52 object-contain">
                     <p class="text-xl text-gray-700 mb-6">
                         Recursos educativos para docentes, estudiantes y ciudadanos que promueven la ciudadanía democrática.

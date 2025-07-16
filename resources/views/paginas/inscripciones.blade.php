@@ -14,7 +14,7 @@
                 class="w-full shadow-none rounded-none p-4 md:p-10 flex flex-col lg:flex-row items-center lg:items-start gap-6 lg:gap-8 bg-[#FFFFF00]">
 
                 <div class="w-full lg:w-2/3 flex justify-center items-center order-1 lg:order-2">
-                    <img src="{{ asset('img/VOLUNTARIADO/FOTO 3.png') }}" alt="Decoración"
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/FOTO 3.png') }}" alt="Decoración"
                         class="object-contain max-h-[25rem] md:max-h-[35rem] lg:max-h-[52rem] w-full lg:w-auto p-5 lg:pt-6">
                 </div>
 
@@ -62,7 +62,7 @@
         @endif
 
         <section class="flex flex-col lg:flex-row items-center lg:items-start"
-            style="background-image: url('{{ asset('img/VOLUNTARIADO/FONDO-CONTACTO-VOLUNTARIADO.png') }}'); background-size: cover; background-position: center;">
+            style="background-image: url('{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/FONDO-CONTACTO-VOLUNTARIADO.png') }}'); background-size: cover; background-position: center;">
 
             <div class="w-full p-4 md:p-8 order-1 lg:order-2 lg:w-3/5 lg:pl-4 lg:pr-14 lg:py-8">
                 <h2
@@ -148,7 +148,7 @@
 
             <div
                 class="w-full flex flex-col items-center text-center p-4 md:p-8 order-2 lg:order-1 lg:ml-0 lg:w-2/5 lg:text-left lg:pt-20 lg:pr-2 lg:py-8">
-                <img src="{{ asset('img/VOLUNTARIADO/voluntariados-boton.png') }}" alt="Voluntariado"
+                <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/voluntariados-boton.png') }}" alt="Voluntariado"
                     class="max-w-[250px] md:max-w-[380px] h-auto object-contain mb-8 md:mb-16">
 
                 <div class="text-gray-800 text-base md:text-lg font-semibold space-y-1">

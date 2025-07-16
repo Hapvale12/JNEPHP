@@ -18,7 +18,7 @@
 
             <x-noticias :noticias="[
                 [
-                    'imagen' => asset('img/noticias/EVENTO UARM/2B9A1417.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1417.jpg'),
                     'titulo' => 'El JNE llega a la Universidad Antonio Ruiz de Montoya',
                     'descripcion' => 'En el marco del Programa del Voluntariado, el Jurado Nacional de Elecciones invitó a los estudiantes a sumarse como voluntarios rumbo a las Elecciones Generales 2026.',
                     'enlace' => '/noticias-y-eventos/JNE1',
@@ -26,14 +26,14 @@
                     
                 ],
                 [
-                    'imagen' => asset('img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
                     'titulo' => 'El JNE inspira a los jóvenes de la UPN a sumarse al voluntariado electoral',
                     'descripcion' => 'En un evento especial en la Universidad Privada del Norte, el Jurado Nacional de Elecciones invitó a los estudiantes a ser parte del Programa del Voluntariado.',
                     'enlace' => '/noticias-y-eventos/JNE2',
                     'fecha' => '03 de Julio, 2025'
                 ],
                 [
-                    'imagen' => asset('img/noticias/JNE/Pueblo Afroperuano2.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano2.jpg'),
                     'titulo' => 'JNE presenta Guía para fortalecer la igualdad y la inclusión del Pueblo Afroperuano',
                     'descripcion' => 'El JNE presentará una guía elaborada con participación activa del Pueblo Afroperuano para promover su inclusión política y ...',
                     'enlace' => '/noticias-y-eventos/JNE3', 

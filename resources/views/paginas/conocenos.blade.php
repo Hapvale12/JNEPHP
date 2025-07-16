@@ -39,7 +39,7 @@
                 CICLO DE INTERVENCIÓN EDUCATIVA
             </h2>
 
-            <img src="{{ asset('img/conocenos-diagrama.png') }}" alt="Ciclo de intervención educativa"
+            <img src="{{ asset('/DnefDocumentos/public/img/conocenos-diagrama.png') }}" alt="Ciclo de intervención educativa"
                 class="w-full max-w-xs md:max-w-md lg:max-w-3xl h-auto">
         </div>
     </div>
@@ -63,7 +63,7 @@
     <div class="h-6 md:h-12 lg:h-4 bg-[#f0f2f3]"></div>
 
     <div class="w-full py-8 md:py-12 px-4 flex flex-col items-center"
-        style="background-image: url('{{ asset('img/FONDO-CADENA.png') }}'); background-size: cover; background-position: center;">
+        style="background-image: url('{{ asset('/DnefDocumentos/public/img/FONDO-CADENA.png') }}'); background-size: cover; background-position: center;">
 
         <h2 class="text-2xl md:text-3xl lg:text-4xl font-extrabold text-[#6f6f6e] text-center mb-6 mt-10 md:mt-16">
             CADENA DE VALOR

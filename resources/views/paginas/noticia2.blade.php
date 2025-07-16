@@ -9,18 +9,18 @@
         <div class="container mx-auto px-5">
             <div class="w-full mb-12">
                 <x-sliderNoticiero :images="[
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (49).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (1).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (14).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (44).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (59).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (61).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (62).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (73).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (75).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (76).jpg'),
-                    asset('img/noticias/EVENTO UPN/Universidad UPN (77).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (49).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (1).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (14).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (44).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (59).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (61).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (62).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (73).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (75).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (76).jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (77).jpg'),
                 ]" />
 
                 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-800 mt-8">
@@ -56,14 +56,14 @@
 
             <x-noticias :noticias="[
                 [
-                    'imagen' => asset('img/noticias/EVENTO UARM/2B9A1417.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1417.jpg'),
                     'titulo' => 'El JNE llega a la Universidad Antonio Ruiz de Montoya',
                     'descripcion' => 'En el marco del Programa del Voluntariado, el Jurado Nacional de Elecciones invitó a los estudiantes a sumarse como voluntarios rumbo a las Elecciones Generales 2026.',
                     'enlace' => '/noticias-y-eventos/JNE1',
                     'fecha' => '09 de Julio, 2025'
                 ],
                 [
-                    'imagen' => asset('img/noticias/JNE/Pueblo Afroperuano2.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano2.jpg'),
                     'titulo' => 'JNE presenta Guía para fortalecer la igualdad y la inclusión del Pueblo Afroperuano',
                     'descripcion' =>
                         'El JNE presentará una guía elaborada con participación activa del Pueblo Afroperuano para promover su inclusión política y ...',

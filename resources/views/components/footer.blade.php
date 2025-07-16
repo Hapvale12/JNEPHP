@@ -6,7 +6,7 @@
     <!-- LOGO FOOTER centrado verticalmente -->
     <div class="w-full md:w-1/4 mb-10 md:mb-0 flex justify-center md:justify-start items-center">
       <a class="flex items-center">
-        <img src="{{ asset('img/Mesa-de-trabajo-10.png') }}" alt="Logo DNEF" class="h-20 w-auto object-contain">
+        <img src="{{ asset('/DnefDocumentos/public/img/Mesa-de-trabajo-10.png') }}" alt="Logo DNEF" class="h-20 w-auto object-contain">
       </a>
     </div>
 

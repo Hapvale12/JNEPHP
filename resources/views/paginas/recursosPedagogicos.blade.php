@@ -14,7 +14,7 @@
             <div class="w-full shadow-none rounded-none p-6 md:p-10 flex flex-col lg:flex-row items-stretch gap-6">
 
                 <div class="w-full lg:w-2/3 flex justify-center items-end order-1 lg:order-2">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/ZONA EDU2.jpg') }}" alt="Decoración" class="object-contain"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/ZONA EDU2.jpg') }}" alt="Decoración" class="object-contain"
                         style="max-height: 52rem; margin-top: 1rem;">
                 </div>
 
@@ -44,12 +44,12 @@
             <div class="flex items-center flex-wrap">
                 <!-- Imagen izquierda -->
                 <img alt="otro banner" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
-                    src="{{ asset('img/ZONA EDUCATIVA/ZONA EDU1.png') }}">
+                    src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/ZONA EDU1.png') }}">
 
                 <!-- Contenido derecho -->
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0 flex flex-col items-center">
                     <!-- Imagen superior encima del texto -->
-                    <img src="{{ asset('img/ZONA EDUCATIVA/comillas.png') }}" alt="Comillas" class="w-27 h-auto mb-4">
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/comillas.png') }}" alt="Comillas" class="w-27 h-auto mb-4">
 
                     <p class="leading-relaxed text-semibold text-center text-[#918378] text-3xl">
                         Una de nuestras principales iniciativas es la
@@ -73,7 +73,7 @@
                     <!-- Tarjeta clickeable -->
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center overflow-hidden">
-                            <img src="{{ asset('img/RECURSOS/PROMOVIENDO.jpg') }}" alt="Cartilla 1"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/PROMOVIENDO.jpg') }}" alt="Cartilla 1"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-3 rounded-b-lg">
@@ -151,7 +151,7 @@
                                             class="bg-white shadow-md rounded-lg p-4 w-52 h-[355px] flex flex-col text-center justify-between">
 
                                             <!-- Imagen centrada -->
-                                            <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/' . $c['img']) }}"
+                                            <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/' . $c['img']) }}"
                                                 alt="{{ $c['title'] }}"
                                                 class="w-28 h-38 object-cover rounded mb-3 mx-auto">
 
@@ -163,7 +163,7 @@
                                             </div>
 
                                             <!-- Botón Descargar -->
-                                            <a href="{{ asset('pdf/1. PROMOVIENDO CIUDADANA/' . $c['pdf']) }}" download
+                                            <a href="{{ asset('/DnefDocumentos/public/pdf/1. PROMOVIENDO CIUDADANA/' . $c['pdf']) }}" download
                                                 class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                                 Descargar
                                             </a>
@@ -181,7 +181,7 @@
                     <!-- Tarjeta visible -->
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/CARTILLA FORMACION CIUDADANA.jpg') }}" alt="Cartilla"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/CARTILLA FORMACION CIUDADANA.jpg') }}" alt="Cartilla"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-3">
@@ -215,14 +215,14 @@
                                 <!-- PDF 1 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/cartilla-fc1.jpg') }}" alt="Miniatura"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/cartilla-fc1.jpg') }}" alt="Miniatura"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Democracia y convivencia democrática
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/2. FORMACION CIUDADANA/1-cartillaeducativa1.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/1-cartillaeducativa1.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -231,14 +231,14 @@
                                 <!-- PDF 2 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/cartilla-fc2.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/cartilla-fc2.jpg') }}"
                                         alt="Miniatura" class="w-28 h-36 object-cover rounded mb-3 mx-auto">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             La participación ciudadana
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/2. FORMACION CIUDADANA/2-cartillaeducativa2.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/2-cartillaeducativa2.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -247,14 +247,14 @@
                                 <!-- PDF 3 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/cartilla-fc3.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/cartilla-fc3.jpg') }}"
                                         alt="Miniatura" class="w-28 h-36 object-cover rounded mb-3 mx-auto">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             El Municipio Escolar
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/2. FORMACION CIUDADANA/3-cartillaeducativa3.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/3-cartillaeducativa3.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -263,14 +263,14 @@
                                 <!-- PDF 4 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between col-span-2 md:col-span-1 md:col-start-2">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/cartilla-fc4.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/cartilla-fc4.jpg') }}"
                                         alt="Miniatura" class="w-28 h-36 object-cover rounded mb-3 mx-auto">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Consejo de participación estudiantil (COPAE)
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/2. FORMACION CIUDADANA/4-cartillaeducativa4.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/4-cartillaeducativa4.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -279,14 +279,14 @@
                                 <!-- PDF 5 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/cartilla-fc5.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/cartilla-fc5.jpg') }}"
                                         alt="Miniatura" class="w-28 h-36 object-cover rounded mb-3 mx-auto">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             El proceso electoral escolar
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/2. FORMACION CIUDADANA/5-cartillaeducativa5.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/5-cartillaeducativa5.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -301,7 +301,7 @@
                     <!-- Tarjeta -->
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/MUNICIPIO ESCOLAR.jpg') }}" alt="Cartilla"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/MUNICIPIO ESCOLAR.jpg') }}" alt="Cartilla"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-6">
@@ -335,14 +335,14 @@
                                 <!-- PDF 1 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Presentación del proceso electoral de los M.E Parte 1
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte1.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte1.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -351,14 +351,14 @@
                                 <!-- PDF 2 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Presentación del proceso electoral de los M.E Parte 2
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte2') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte2') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -367,14 +367,14 @@
                                 <!-- PDF 3 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Hoja para Fiscalizadores Electorales Escolares
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/3.MUNICIPIOS ESCOLAR/hoja_de_reporte_de_fiscalizadores.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/hoja_de_reporte_de_fiscalizadores.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -384,14 +384,14 @@
                                 <!-- PDF 4 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Credencial
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/3.MUNICIPIOS ESCOLAR/CREDENCIAL.doc') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/CREDENCIAL.doc') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -406,7 +406,7 @@
                 <div x-data="{ open: false }" class="relative">
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/4. CONSEJO DE PARTICIPACION ESTUDIANTIL.png') }}"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/4. CONSEJO DE PARTICIPACION ESTUDIANTIL.png') }}"
                                 alt="Cartilla" class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-3">
@@ -438,14 +438,14 @@
                                 <!-- PDF 1 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Cartilla Educativa
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/4.CONSEJO DE PARTICIPACION ESTUDIANTIL/4-cartillaeducativa4.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4.CONSEJO DE PARTICIPACION ESTUDIANTIL/4-cartillaeducativa4.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -455,14 +455,14 @@
                                 <!-- PDF 2 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Resolución
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/4.CONSEJO DE PARTICIPACION ESTUDIANTIL/RESOLUCION_026-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4.CONSEJO DE PARTICIPACION ESTUDIANTIL/RESOLUCION_026-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -477,7 +477,7 @@
                     <!-- Imagen de apertura del modal -->
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/resoluciones.png') }}" alt="Cartilla"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/resoluciones.png') }}" alt="Cartilla"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-3">
@@ -507,14 +507,14 @@
                                 <!-- Documento 1 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Resolución 046
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_046-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_046-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -524,14 +524,14 @@
                                 <!-- Documento 2 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/pdf.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Miniatura">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">
                                             Resolución 026
                                         </p>
                                     </div>
-                                    <a href="{{ asset('pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_026-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_026-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -546,7 +546,7 @@
                 <div x-data="{ open: false }" class="relative">
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/INFOGRAFÍA.jpg') }}" alt="Cartilla"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/INFOGRAFÍA.jpg') }}" alt="Cartilla"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-6">
@@ -576,12 +576,12 @@
                                 <!-- Infografía 1 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/info1-01.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/info1-01.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Interculturalidad">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">Interculturalidad</p>
                                     </div>
-                                    <a href="{{ asset('pdf/6. INFOGRAFIAS/Interculturalidad.jpg') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/6. INFOGRAFIAS/Interculturalidad.jpg') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -590,12 +590,12 @@
                                 <!-- Infografía 2 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/info2-01.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/info2-01.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Valores democráticos">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">Tolerancia</p>
                                     </div>
-                                    <a href="{{ asset('pdf/6. INFOGRAFIAS/Tolerancia.jpg') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/6. INFOGRAFIAS/Tolerancia.jpg') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -604,12 +604,12 @@
                                 <!-- Infografía 3 -->
                                 <div
                                     class="bg-white shadow-md rounded-lg p-4 w-full h-[300px] flex flex-col text-center justify-between">
-                                    <img src="{{ asset('img/ZONA EDUCATIVA/miniaturas/info3-01.png') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/miniaturas/info3-01.png') }}"
                                         class="w-28 h-36 object-cover rounded mb-3 mx-auto" alt="Interculturalidad">
                                     <div class="flex-grow flex items-center justify-center">
                                         <p class="text-sm text-gray-700 leading-snug">Valores Democraticos</p>
                                     </div>
-                                    <a href="{{ asset('pdf/6. INFOGRAFIAS/Valores democráticos.jpg') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/6. INFOGRAFIAS/Valores democráticos.jpg') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -621,7 +621,7 @@
 
                 <div class="bg-white border-12 border-[#dbdbdb] text-center">
                     <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                        <img src="{{ asset('img/RECURSOS/videos.png') }}" alt="Cartilla 1"
+                        <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/videos.png') }}" alt="Cartilla 1"
                             class="w-full h-full object-contain">
                     </div>
                     <div class="bg-white p-7">
@@ -635,7 +635,7 @@
                 <div x-data="{ open: false }" class="relative">
                     <div @click="open = true" class="cursor-pointer bg-white border-12 border-[#dbdbdb] text-center">
                         <div class="bg-red-700 w-full h-[220px] flex items-center justify-center">
-                            <img src="{{ asset('img/RECURSOS/juegos.jpg') }}" alt="Juegos Educativos"
+                            <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/juegos.jpg') }}" alt="Juegos Educativos"
                                 class="w-full h-full object-contain">
                         </div>
                         <div class="bg-white p-7">
@@ -666,7 +666,7 @@
 
                                 <a href="URL_DEL_JUEGO_1" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego1.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego1.jpg') }}"
                                         alt="Juego 1: Nombre del Juego" class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -675,7 +675,7 @@
 
                                 <a href="URL_DEL_JUEGO_2" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego2.jpg') }}"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego2.jpg') }}"
                                         alt="Juego 2: Título Corto" class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -684,7 +684,7 @@
 
                                 <a href="URL_DEL_JUEGO_3" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego3.jpg') }}" alt="Juego 3"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego3.jpg') }}" alt="Juego 3"
                                         class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -693,7 +693,7 @@
 
                                 <a href="URL_DEL_JUEGO_4" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego4.jpg') }}" alt="Juego 4"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego4.jpg') }}" alt="Juego 4"
                                         class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -702,7 +702,7 @@
 
                                 <a href="URL_DEL_JUEGO_5" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego5.jpg') }}" alt="Juego 5"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego5.jpg') }}" alt="Juego 5"
                                         class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -711,7 +711,7 @@
 
                                 <a href="URL_DEL_JUEGO_6" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego6.jpg') }}" alt="Juego 6"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego6.jpg') }}" alt="Juego 6"
                                         class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -720,7 +720,7 @@
 
                                 <a href="URL_DEL_JUEGO_7" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
-                                    <img src="{{ asset('img/RECURSOS/banner-juegos/juego7.jpg') }}" alt="Juego 7"
+                                    <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego7.jpg') }}" alt="Juego 7"
                                         class="block w-full h-auto object-contain">
                                     <div
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
@@ -736,7 +736,7 @@
                 <div class="bg-white relative p-4 flex items-center h-[320px]">
                     <!-- Imagen a la izquierda -->
                     <div class="w-1/2 h-full flex items-center justify-center">
-                        <img src="{{ asset('img/ZONA EDUCATIVA/niño2.png') }}" alt="Contador"
+                        <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niño2.png') }}" alt="Contador"
                             class="max-h-full object-contain">
                     </div>
 

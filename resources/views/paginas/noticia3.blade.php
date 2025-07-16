@@ -10,10 +10,10 @@
         <div class="container mx-auto px-5">
             <div class="w-full mb-12">
                 <x-sliderNoticiero :images="[
-                    asset('img/noticias/JNE/Pueblo Afroperuano1.jpg'),
-                    asset('img/noticias/JNE/Pueblo Afroperuano2.jpg'),
-                    asset('img/noticias/JNE/Pueblo Afroperuano3.jpg'),
-                    asset('img/noticias/JNE/Pueblo Afroperuano4.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano1.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano2.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano3.jpg'),
+                    asset('/DnefDocumentos/public/img/noticias/JNE/Pueblo Afroperuano4.jpg'),
                 ]" />
 
                 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-800 mt-8">
@@ -71,7 +71,7 @@
 
             <x-noticias :noticias="[
                 [
-                    'imagen' => asset('img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UPN/Universidad UPN (25).jpg'),
                     'titulo' => 'El JNE inspira a los jóvenes de la UPN a sumarse al voluntariado electoral',
                     'descripcion' =>
                         'En un evento especial en la Universidad Privada del Norte, el Jurado Nacional de Elecciones invitó a los estudiantes a ser parte del Programa del Voluntariado.',
@@ -79,7 +79,7 @@
                     'fecha' => '03 de Julio, 2025',
                 ],
                 [
-                    'imagen' => asset('img/noticias/EVENTO UARM/2B9A1417.jpg'),
+                    'imagen' => asset('/DnefDocumentos/public/img/noticias/EVENTO UARM/2B9A1417.jpg'),
                     'titulo' => 'El JNE llega a la Universidad Antonio Ruiz de Montoya',
                     'descripcion' =>
                         'En el marco del Programa del Voluntariado, el Jurado Nacional de Elecciones invitó a los estudiantes a sumarse como voluntarios rumbo a las Elecciones Generales 2026.',

@@ -33,7 +33,7 @@
 
             {{-- Image container: Below text when stacked, right when row. Smaller on tablets. --}}
             <div class="w-full md:w-3/4 lg:w-3/5 order-2 lg:order-2">
-                <img src="{{ asset('img/ZONA EDUCATIVA/zona-escolar1.jpg') }}" alt="Zona Educativa JNE"
+                <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/zona-escolar1.jpg') }}" alt="Zona Educativa JNE"
                     class="p-6 w-full h-auto object-cover mx-auto"> {{-- Added mx-auto for centering on tablets --}}
             </div>
 
@@ -47,11 +47,11 @@
         <section class="py-4">
             <!-- Contenedor principal con fondo aplicado -->
             <div class="max-w-7xl mx-auto px-4 bg-no-repeat bg-contain bg-center flex flex-col md:flex-row items-center md:items-start"
-                style="background-image: url('{{ asset('img/ZONA EDUCATIVA/tira1.png') }}'); min-height: 300px;">
+                style="background-image: url('{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/tira1.png') }}'); min-height: 300px;">
 
                 <!-- Imagen a la izquierda -->
                 <div class="w-full md:w-1/3 flex justify-center md:justify-end mb-6 md:mb-0">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/niño1.png') }}" alt="Imagen Franja 1"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niño1.png') }}" alt="Imagen Franja 1"
                         class="max-h-62 mt-6 mb-4 mr-12 object-contain">
                 </div>
 
@@ -72,11 +72,11 @@
         <section class="py-2">
             <!-- Contenedor principal con fondo aplicado -->
             <div class="max-w-7xl mx-auto px-4 bg-no-repeat bg-contain bg-center flex flex-col md:flex-row items-center md:items-start"
-                style="background-image: url('{{ asset('img/ZONA EDUCATIVA/tira2.png') }}'); min-height: 300px;">
+                style="background-image: url('{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/tira2.png') }}'); min-height: 300px;">
 
                 <!-- Imagen a la izquierda -->
                 <div class="w-full md:w-1/3 flex justify-center md:justify-end mb-6 md:mb-0">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/niña-1.png') }}" alt="Imagen Franja 1"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niña-1.png') }}" alt="Imagen Franja 1"
                         class="max-h-62 mt-6 mb-4 mr-12 object-contain">
                 </div>
 
@@ -100,7 +100,7 @@
         <section class="py-4 bg-[#dcdfdf]">
             <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start">
                 <div class="w-full md:w-1/3 flex justify-center items-center">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/niño1.png') }}" alt="Imagen Franja 1"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niño1.png') }}" alt="Imagen Franja 1"
                         class="max-h-60 object-contain mt-8">
                 </div>
                 <div class="w-full md:w-3/3 text-justify text-gray-700 text-xl leading-relaxed md:pl-1 pr-2 py-4">
@@ -122,7 +122,7 @@
             <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-start md:items-stretch">
                 <!-- Imagen izquierda centrada verticalmente -->
                 <div class="w-full md:w-1/3 flex justify-center items-center">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/niña-1.png') }}" alt="Imagen Franja 2"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niña-1.png') }}" alt="Imagen Franja 2"
                         class="max-h-60 object-contain mt-8">
                 </div>
 
@@ -160,7 +160,7 @@
 
     <!-- VERSIÓN PARA DESKTOP -->
     <section class="hidden lg:block w-full bg-cover bg-center py-16 min-h-[440px] text-white"
-        style="background-image: url('{{ asset('img/ZONA EDUCATIVA/tira3.png') }}');">
+        style="background-image: url('{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/tira3.png') }}');">
         <div class="max-w-6xl mx-auto px-6 text-center">
             <p class="text-xl md:text-3xl leading-relaxed font-medium">
                 Además, llevamos ferias educativas cívicas a espacios abiertos como<br>
@@ -184,20 +184,20 @@
     <!-- Imagen izquierda -->
     <a href="{{ url('/lineas-de-trabajo/zonaEducativa/recursosPedagogicos') }}"
        class="transform transition-transform duration-300 hover:-rotate-3 w-full max-w-xs lg:max-w-sm">
-        <img src="{{ asset('img/ZONA EDUCATIVA/botonesa1.png') }}" alt="Imagen izquierda"
+        <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/botonesa1.png') }}" alt="Imagen izquierda"
              class="w-full h-auto max-h-60 lg:max-h-72 object-contain mx-auto">
     </a>
 
     <!-- Imagen del centro -->
     <div class="w-full max-w-[180px] lg:max-w-[220px] flex justify-center items-center">
-        <img src="{{ asset('img/ZONA EDUCATIVA/niño2.png') }}" alt="Imagen centro"
+        <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/niño2.png') }}" alt="Imagen centro"
              class="w-full h-auto max-h-60 lg:max-h-72 object-contain mx-auto">
     </div>
 
     <!-- Imagen derecha -->
     <a href="{{ url('/lineas-de-trabajo/zonaEducativa/museoElectoral') }}"
        class="transform transition-transform duration-300 hover:rotate-3 w-full max-w-xs lg:max-w-sm">
-        <img src="{{ asset('img/ZONA EDUCATIVA/botonesa2.png') }}" alt="Imagen derecha"
+        <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/botonesa2.png') }}" alt="Imagen derecha"
              class="w-full h-auto max-h-60 lg:max-h-72 object-contain mx-auto">
     </a>
 

@@ -31,7 +31,7 @@
 
             {{-- CAMBIO CRÍTICO DE ORDEN: La imagen ahora va después del texto en todas las vistas donde se apila --}}
             <div class="md:w-3/5 w-full order-2 lg:order-2">
-                <img src="{{ asset('img/VOLUNTARIADO/FOTO 2.png') }}" alt="Voluntariado JNE"
+                <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/FOTO 2.png') }}" alt="Voluntariado JNE"
                     class="p-6 w-full h-auto object-cover">
             </div>
 
@@ -46,7 +46,7 @@
 
             <div class="w-full flex flex-col items-center justify-center">
                 <div class="flex justify-center items-center bg-[#e58622] w-full h-[200px] md:h-[300px] p-4 rounded-lg">
-                    <img src="{{ asset('img/VOLUNTARIADO/niño2.png') }}" alt="Icono 1" class="max-h-full object-contain">
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/niño2.png') }}" alt="Icono 1" class="max-h-full object-contain">
                 </div>
                 <div class="bg-[#dcdfdf] w-full p-6 text-left rounded-lg mt-4">
                     <div class="px-2 py-2 md:px-14 md:py-6">
@@ -63,7 +63,7 @@
 
             <div class="w-full flex flex-col items-center justify-center">
                 <div class="flex justify-center items-center bg-[#e58622] w-full h-[200px] md:h-[300px] p-4 rounded-lg">
-                    <img src="{{ asset('img/VOLUNTARIADO/niña-2.png') }}" alt="Icono 1" class="max-h-full object-contain">
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/niña-2.png') }}" alt="Icono 1" class="max-h-full object-contain">
                 </div>
                 <div class="bg-[#dcdfdf] w-full p-6 text-left rounded-lg mt-4">
                     <div class="px-2 py-2 md:px-14 md:py-0">
@@ -88,7 +88,7 @@
             class="hidden lg:grid grid-cols-[1fr_0.2fr_0.3fr_1fr_1fr_0.2fr_0.3fr_1fr] grid-rows-[0.2fr_2.5fr_0.2fr_2.5fr_0.2fr] gap-y-[15px] gap-x-2 w-full max-w-7xl mx-auto">
 
             <div class="flex justify-center items-center bg-[#e58622] col-start-1 col-end-4 row-start-1 row-end-4">
-                <img src="{{ asset('img/VOLUNTARIADO/niño2.png') }}" alt="Icono 1" class="max-h-68 object-contain">
+                <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/niño2.png') }}" alt="Icono 1" class="max-h-68 object-contain">
             </div>
 
             <div class="bg-[#dcdfdf] col-start-3 col-end-9 row-start-2 row-end-3 p-8 text-left">
@@ -105,7 +105,7 @@
             </div>
 
             <div class="flex justify-center items-center bg-[#e58622] col-start-6 col-end-9 row-start-3 row-end-6">
-                <img src="{{ asset('img/VOLUNTARIADO/niña-2.png') }}" alt="Icono 1" class="max-h-68 object-contain">
+                <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/niña-2.png') }}" alt="Icono 1" class="max-h-68 object-contain">
             </div>
 
             <div class="bg-[#dcdfdf] col-start-1 col-end-7 row-start-4 row-end-5 p-8 text-left">
@@ -134,17 +134,17 @@
     <div class="flex flex-col items-center gap-y-8 md:gap-y-12 lg:hidden w-full max-w-7xl mx-auto">
 
         <div class="w-full bg-[#e7e7e7] p-4 flex flex-col items-center text-center rounded-lg"> {{-- Añadido w-full y rounded --}}
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17@4x-8.png') }}" alt="Imagen 1"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17@4x-8.png') }}" alt="Imagen 1"
                 class="max-w-[180px] md:max-w-[220px] max-h-[180px] md:max-h-[220px] rounded-md mb-4 object-contain"> {{-- Ajustado tamaño de imagen --}}
 
             <p class="text-xl md:text-2xl font-extrabold text-gray-800 mb-4 px-4">¿Dónde intervenimos?</p> {{-- Ajustado tamaño y padding --}}
 
             <p class="text-lg md:text-xl font-semi-bold text-gray-800 px-4">Presencia Nacional</p> {{-- Ajustado tamaño y padding --}}
-            <img src="{{ asset('img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-16 my-2"> {{-- Ajustado tamaño --}}
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-16 my-2"> {{-- Ajustado tamaño --}}
 
             <p class="text-lg md:text-xl font-semi-bold text-gray-800 px-4">Oficinas Desconcentradas
                 en cada región.</p>
-            <img src="{{ asset('img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-16 my-2">
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-16 my-2">
 
             <p class="text-lg md:text-xl font-semi-bold text-gray-800 px-4">Elecciones Generales 2026,
                 los voluntarios intervienen
@@ -154,7 +154,7 @@
         </div>
 
         <div class="w-full bg-[#e7e7e7] p-4 flex flex-col items-center text-center rounded-lg">
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17 copia@4x-8.png') }}" alt="Imagen 2"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17 copia@4x-8.png') }}" alt="Imagen 2"
                 class="max-w-[180px] md:max-w-[220px] max-h-[180px] md:max-h-[220px] rounded-md mb-4 object-contain">
             <p class="text-xl md:text-2xl font-extrabold text-gray-800 mb-4 px-4">¿Cuál es la duración del
                 Voluntariado?</p>
@@ -165,7 +165,7 @@
         </div>
 
         <div class="w-full bg-[#e7e7e7] p-4 flex flex-col items-center text-center rounded-lg">
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17 copia 2@4x-8.png') }}" alt="Imagen 3"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17 copia 2@4x-8.png') }}" alt="Imagen 3"
                 class="max-w-[180px] md:max-w-[220px] max-h-[180px] md:max-h-[220px] rounded-md mb-4 object-contain">
             <p class="text-xl md:text-2xl font-extrabold text-gray-800 mb-4 px-4">Convocatoria</p>
             <div class="px-4 text-gray-800"> {{-- Ajustado padding --}}
@@ -195,7 +195,7 @@
                     INSCRÍBETE AQUÍ
                 </a>
                 <div class="absolute -top-1 -right-6 z-10">
-                    <img src="{{ asset('img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
                         class="w-8 h-8 md:w-10 md:h-10"> {{-- Ajustado tamaño ícono --}}
                 </div>
             </div>
@@ -207,17 +207,17 @@
     <div class="hidden lg:grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr] grid-rows-4 gap-6 w-full max-w-7xl mx-auto">
 
         <div class="mx-3 col-span-2 row-span-5 flex flex-col items-center text-center bg-[#e7e7e7] p-4">
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17@4x-8.png') }}" alt="Imagen 1"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17@4x-8.png') }}" alt="Imagen 1"
                 class="max-w-[220px] max-h-[220px] rounded-md mb-4">
 
             <p class="text-2xl font-extrabold text-gray-800 mb-8 px-16">¿Dónde intervenimos?</p>
 
             <p class="text-2xl font-semi-bold text-gray-800 px-16">Presencia Nacional</p>
-            <img src="{{ asset('img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-20 my-3">
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-20 my-3">
 
             <p class="text-2xl font-semi-bold text-gray-800 px-16">Oficinas Desconcentradas
                 en cada región.</p>
-            <img src="{{ asset('img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-20 my-3">
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/rayita.png') }}" alt="Rayita" class="w-20 my-3">
 
             <p class="text-2xl font-semi-bold text-gray-800 px-16">Elecciones Generales 2026,
                 los voluntarios intervienen
@@ -227,7 +227,7 @@
         </div>
 
         <div class="mx-3 col-span-2 row-span-4 col-start-3 flex flex-col items-center text-center bg-[#e7e7e7] p-4">
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17 copia@4x-8.png') }}" alt="Imagen 2"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17 copia@4x-8.png') }}" alt="Imagen 2"
                 class="max-w-[220px] max-h-[220px] rounded-md mb-4">
             <p class="text-2xl font-extrabold text-gray-800 mb-8 px-10">¿Cuál es la duración del
                 Voluntariado?</p>
@@ -238,7 +238,7 @@
         </div>
 
         <div class="mx-3 col-span-2 row-span-5 col-start-5 flex flex-col items-center text-center bg-[#e7e7e7] p-4">
-            <img src="{{ asset('img/VOLUNTARIADO/1Mesa de trabajo 17 copia 2@4x-8.png') }}" alt="Imagen 3"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/1Mesa de trabajo 17 copia 2@4x-8.png') }}" alt="Imagen 3"
                 class="max-w-[220px] max-h-[220px] rounded-md mb-4">
             <p class="text-2xl font-extrabold text-gray-800 mb-8 px-16">Convocatoria</p>
             <div class="px-16 text-gray-800">
@@ -269,7 +269,7 @@
                 </a>
 
                 <div class="absolute -top-1 -right-6 z-10">
-                    <img src="{{ asset('img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
                         class="w-10 h-10">
                 </div>
             </div>

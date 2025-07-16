@@ -15,7 +15,7 @@
                 {{-- Eliminado bg-[#FFFFF00] --}}
 
                 <div class="w-full lg:w-2/3 flex justify-center items-end order-1 lg:order-2">
-                    <img src="{{ asset('img/ZONA EDUCATIVA/MUSEO.jpg') }}" alt="Decoración" class="object-contain"
+                    <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/MUSEO.jpg') }}" alt="Decoración" class="object-contain"
                         style="max-height: 52rem; margin-top: 1rem;">
                 </div>
 
@@ -50,19 +50,19 @@
     <div class="max-w-6xl mx-auto mt-6 px-4 py-6 flex flex-col md:flex-col lg:flex-row items-center md:items-start gap-6 lg:gap-16 lg:pb-16"> {{-- Aumentado el gap para desktop (lg:gap-16) --}}
 
     <div class="w-full md:w-3/4 lg:w-1/4 flex justify-center items-center mx-auto md:mb-6 lg:mb-0">
-        <img src="{{ asset('img/ZONA EDUCATIVA/botones-museo.png') }}" alt="Botones Museo"
+        <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/botones-museo.png') }}" alt="Botones Museo"
             class="w-full object-contain max-h-48 md:max-h-[300px] lg:max-h-full">
     </div>
 
     <div class="w-full md:w-3/4 lg:w-3/4 flex flex-col md:flex-col lg:flex-row gap-4 justify-center items-center md:items-start mx-auto pt-4 md:pt-0">
 
         <a href="https://museoelectoral.jne.gob.pe/visita2/index.html" class="w-2/3 sm:w-2/3 md:w-2/3 lg:w-full mx-auto">
-            <img src="{{ asset('img/ZONA EDUCATIVA/1Mesa de trabajo 33 copia@4x-8.png') }}"
+            <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/1Mesa de trabajo 33 copia@4x-8.png') }}"
                 alt="Botón visita presencial" class="w-full h-auto object-contain">
         </a>
 
         <a href="https://museoelectoral.jne.gob.pe/#contacto" class="w-2/3 sm:w-1/2 md:w-2/3 lg:w-full mx-auto">
-            <img src="{{ asset('img/ZONA EDUCATIVA/1Mesa de trabajo 33@4x-8.png') }}" alt="Botón visita virtual"
+            <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/1Mesa de trabajo 33@4x-8.png') }}" alt="Botón visita virtual"
                 class="w-full h-auto object-contain">
         </a>
 

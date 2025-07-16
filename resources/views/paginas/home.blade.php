@@ -26,25 +26,25 @@
     <div class="w-full lg:w-1/2 grid grid-cols-2 grid-rows-2 gap-4 h-full"> {{-- CAMBIO CLAVE AQUÍ: md:w-1/2 a lg:w-1/2 --}}
         <a href="{{ url('/lineas-de-trabajo/igualdadPolitica') }}"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
-            <img src="{{ asset('img/Mesa de trabajo 1 copia.png') }}" alt="Imagen 1"
+            <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 1 copia.png') }}" alt="Imagen 1"
                 class="w-full h-full object-cover">
         </a>
 
         <a href="{{ url('/lineas-de-trabajo/votoInformado') }}"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
-            <img src="{{ asset('img/Mesa de trabajo 2 copia.png') }}" alt="Imagen 2"
+            <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 2 copia.png') }}" alt="Imagen 2"
                 class="w-full h-full object-cover">
         </a>
 
         <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE') }}"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
-            <img src="{{ asset('img/Mesa de trabajo 3 copia.png') }}" alt="Imagen 3"
+            <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 3 copia.png') }}" alt="Imagen 3"
                 class="w-full h-full object-cover">
         </a>
 
         <a href="{{ url('/lineas-de-trabajo/zonaEducativa') }}"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
-            <img src="{{ asset('img/1Mesa de trabajo 1 copia 2.png') }}" alt="Imagen 4"
+            <img src="{{ asset('/DnefDocumentos/public/img/1Mesa de trabajo 1 copia 2.png') }}" alt="Imagen 4"
                 class="w-full h-full object-cover">
         </a>
     </div>

@@ -11,7 +11,7 @@
     <div class="container mx-auto px-4 py-6 flex items-center justify-between lg:justify-start"> {{-- CAMBIO: md:justify-start a lg:justify-start --}}
 
         <a href="{{ route('home') }}" class="flex items-center">
-            <img src="{{ asset('img/Mesa-de-trabajo-4.png') }}" alt="Logo DNE" class="h-24 w-auto object-contain">
+            <img src="{{ asset('/DnefDocumentos/public/img/Mesa-de-trabajo-4.png') }}" alt="Logo DNE" class="h-24 w-auto object-contain">
         </a>
 
         {{-- CAMBIO: md:hidden a lg:hidden --}}

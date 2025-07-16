@@ -13,7 +13,7 @@
             {{-- Contenedor de la imagen --}}
             <div class="relative w-full lg:w-3/6 flex justify-center lg:justify-end items-center lg:items-end lg:self-end order-1 lg:order-2">
                 <div class="absolute top-0 right-0 bottom-0 left-[50%] md:left-[50%] lg:hidden bg-[#056684]"></div>
-                <img src="{{ asset('img/IGUALDAD POLITICA/igualdad.png') }}" alt="Decoración"
+                <img src="{{ asset('/DnefDocumentos/public/img/IGUALDAD POLITICA/igualdad.png') }}" alt="Decoración"
                     class="object-contain max-h-[20rem] md:max-h-[30rem] lg:max-h-[42rem] w-[100%] relative z-10 p-4 md:px-6 pb-0" />
                     {{-- Añadido padding a la imagen para el espacio con el fondo --}}
             </div>
@@ -47,12 +47,12 @@
     <div class="relative flex flex-col items-center justify-center mt-8 md:mt-12 lg:mt-16 py-10">
 
         <a href="https://observaigualdad.jne.gob.pe" class="z-0">
-            <img src="{{ asset('img/IGUALDAD POLITICA/1Mesa de Trabajo 11@4x-8.png') }}" alt="Botón gráfico"
+            <img src="{{ asset('/DnefDocumentos/public/img/IGUALDAD POLITICA/1Mesa de Trabajo 11@4x-8.png') }}" alt="Botón gráfico"
                 class="w-full max-w-[150px] md:max-w-sm transition-transform duration-150 ease-in hover:-translate-y-1 active:translate-y-0">
         </a>
 
         <div class="absolute left-[73%] transform -translate-x-1/2 -translate-y-1/2 lg:left-8/13 lg:transform-none z-10">
-            <img src="{{ asset('img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
                 class="w-10 h-10 md:w-14 md:h-14">
         </div>
 
@@ -62,7 +62,7 @@
     <section class="w-full flex flex-col md:flex-row py-6">
         <div
             class="w-full md:w-1/2 bg-[#056684] text-white flex flex-col items-center justify-center text-center px-6 py-6">
-            <img src="{{ asset('img/igualdad politica/1Mesa de trabajo 12@4x-8.png') }}" alt="Icono objetivo"
+            <img src="{{ asset('/DnefDocumentos/public/img/igualdad politica/1Mesa de trabajo 12@4x-8.png') }}" alt="Icono objetivo"
                 class="w-32 h-24 md:w-40 md:h-28 mb-6 md:mb-10">
             <h3 class="text-yellow-400 text-2xl md:text-3xl font-bold mb-4">Objetivo general</h3>
             <p class="text-base md:text-xl text-justify max-w-md leading-relaxed">
@@ -75,7 +75,7 @@
 
         <div
             class="w-full md:w-1/2 bg-[#E5E5E5] text-[#333] flex flex-col items-center justify-center text-center px-6 py-6">
-            <img src="{{ asset('img/igualdad politica/1Mesa de trabajo 13@4x-8.png') }}" alt="Icono qué hacemos"
+            <img src="{{ asset('/DnefDocumentos/public/img/igualdad politica/1Mesa de trabajo 13@4x-8.png') }}" alt="Icono qué hacemos"
                 class="mt-6 w-28 h-32 md:w-32 md:h-38 mb-6 md:mb-11">
             <h3 class="text-[#056684] text-2xl md:text-3xl font-bold mb-4">¿Qué hacemos?</h3>
             <p class="text-base md:text-xl text-justify max-w-md leading-relaxed mb-4">

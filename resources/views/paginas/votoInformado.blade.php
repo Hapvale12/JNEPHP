@@ -36,7 +36,7 @@
 
                     {{-- left-[20%] o left-[30%] para que empiece un poco a la izquierda de la imagen --}}
 
-                    <img src="{{ asset('img/VOTO INFORMADO/foto 1v.png') }}" alt="Decoración"
+                    <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/foto 1v.png') }}" alt="Decoración"
                         class="object-contain max-h-[15rem] md:max-h-[25rem] lg:max-h-[52rem] w-[100%] lg:w-auto relative z-10 p-0 md:p-6" />
                     {{-- La imagen tiene z-10 para estar sobre el fondo --}}
                 </div>
@@ -50,7 +50,7 @@
             <div class="flex items-center flex-wrap">
                 <img alt="un banner"
                     class="lg:w-1/2 w-full h-auto md:max-h-[35rem] object-contain lg:object-cover object-center rounded"
-                    {{-- CAMBIO: Añadido md:max-h-[35rem] --}} src="{{ asset('img/VOTO INFORMADO/foto 2v.png') }}">
+                    {{-- CAMBIO: Añadido md:max-h-[35rem] --}} src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/foto 2v.png') }}">
                 <div class="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
                     <p class="leading-relaxed text-justify text-semibold text-2xl">
                         • <strong>Una mirada político-electoral:</strong> Busca generar
@@ -76,7 +76,7 @@
     <section class="bg-[#BE1717] py-10">
         <!-- Imagen centrada -->
         <div class="max-w-6xl mx-auto px-4 flex justify-center mb-6">
-            <img src="{{ asset('img/VOTO INFORMADO/1Mesa de trabajo 12 copia@4x-8.png') }}" alt="Imagen Franja 1"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/1Mesa de trabajo 12 copia@4x-8.png') }}" alt="Imagen Franja 1"
                 class="max-h-30 md:max-h-36 object-contain">
         </div>
 
@@ -192,7 +192,7 @@
 
         <!-- Ícono sobrepuesto encima del botón y ligeramente hacia la derecha -->
         <div class="absolute -bottom-1 left-9/14 transform -translate-x-1/4 z-10">
-            <img src="{{ asset('img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
+            <img src="{{ asset('/DnefDocumentos/public/img/VOTO INFORMADO/1Mesa de trabajo 9@4x-8.png') }}" alt="Ícono decorativo"
                 class="w-10 h-10">
         </div>
 
