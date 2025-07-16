@@ -20,7 +20,7 @@
                 <div class="flex flex-col lg:flex-row gap-6 items-stretch h-auto lg:h-[32rem]"> {{-- CAMBIO CLAVE AQUÍ: md:flex-row a lg:flex-row y md:h-[32rem] a lg:h-[32rem] --}}
 
     <div class="w-full lg:w-1/2 h-full"> {{-- CAMBIO CLAVE AQUÍ: md:w-1/2 a lg:w-1/2 --}}
-        <img src="img/home_chicos.png" alt="Imagen principal" class="w-full h-full object-cover">
+        <img src="/DnefDocumentos/public/img/home_chicos.png" alt="Imagen principal" class="w-full h-full object-cover">
     </div>
 
     <div class="w-full lg:w-1/2 grid grid-cols-2 grid-rows-2 gap-4 h-full"> {{-- CAMBIO CLAVE AQUÍ: md:w-1/2 a lg:w-1/2 --}}
