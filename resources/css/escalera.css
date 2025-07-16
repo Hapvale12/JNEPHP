@@ -1,0 +1,193 @@
+/* From Uiverse.io by levxyca */ 
+/* From Uiverse.io by mrhyddenn */ 
+.escalera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.escalon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-bottom: 19px; /* para efecto de solapamiento como en la imagen */
+}
+
+.lado {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.escalon > .btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Ancho decreciente por nivel */
+.nivel1 {
+  width: 420px;
+}
+
+.nivel2 {
+  width: 380px;
+}
+
+.nivel3 {
+  width: 340px;
+}
+
+.nivel4 {
+  width: 300px;
+}
+
+/* Número lateral */
+.numero {
+  width: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Colores por nivel */
+.nivel1 .numero,
+.nivel1 .text { color: #006084; }
+
+.nivel2 .numero,
+.nivel2 .text { color: #d0a251; }
+
+.nivel3 .numero,
+.nivel3 .text { color: #00aaa8; }
+
+.nivel4 .numero,
+.nivel4 .text { color: #c31213; }
+
+/* Botón general */
+.btn {
+  display: block;
+  padding: 0.6em 2em;
+  background: transparent;
+  outline: none;
+  border: 0;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Estilo de cubo */
+.cube {
+  position: relative;
+  transition: all 0.5s;
+}
+
+/* Parte superior del cubo */
+.cube .bg-top {
+  position: absolute;
+  height: 20px;
+  background: #171717;
+  bottom: 99%;
+  left: 10px;
+  right: -10px;
+  transform: skew(-45deg, 0);
+  margin: 0;
+  transition: all 0.4s;
+}
+
+/* ✅ Cambiar la orientación de la tapa superior para cubo derecho */
+.cube.orientado-izquierda .bg-top {
+  left: -10px;
+  right: 10px;
+  transform: skew(45deg, 0);
+}
+
+/* Fondo base */
+.cube .bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  background: #171717;
+  transition: all 0.4s;
+}
+
+/* Parte interna blanca */
+.cube .bg-inner {
+  background: #ffffff;
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  transition: all 0.4s;
+}
+
+/* Texto principal del botón */
+.cube .text {
+  position: relative;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover: fondo del color del texto y texto blanco */
+.nivel1 .cube:hover .bg-inner {
+  background: #006084;
+}
+.nivel1 .cube:hover .text {
+  color: #fff;
+}
+
+.nivel2 .cube:hover .bg-inner {
+  background: #d0a251;
+}
+.nivel2 .cube:hover .text {
+  color: #fff;
+}
+
+.nivel3 .cube:hover .bg-inner {
+  background: #00aaa8;
+}
+.nivel3 .cube:hover .text {
+  color: #fff;
+}
+
+.nivel4 .cube:hover .bg-inner {
+  background: #c31213;
+}
+.nivel4 .cube:hover .text {
+  color: #fff;
+}
+
+/* Efecto 3D en hover */
+.cube:hover .bg-right,
+.cube:hover .bg,
+.cube:hover .bg-top {
+  background: #171717;
+}
+
+/* Rebote al hacer clic */
+.cube:active {
+  z-index: 9999;
+  animation: bounce 0.1s linear;
+}
+
+@keyframes bounce {
+  50% {
+    transform: scale(0.9);
+  }
+}
