@@ -6,7 +6,7 @@
     <section class="text-center">
         <!-- Fondo -->
         <div class="relative bg-cover bg-center bg-no-repeat w-full min-h-screen"
-            style="background-image: url('{{ asset('img/FONDO-HOME.png') }}');">
+            style="background-image: url('{{ asset('/DnefDocumentos/public/img/FONDO-HOME.png') }}');">
 
             <!-- Contenedor principal -->
             <div class="relative max-w-6xl mx-auto px-4 pt-40 pb-16 md:py-20">
