@@ -129,7 +129,7 @@
                                             ],
                                             [
                                                 'img' => '5-ciudadania-participacion.jpg',
-                                                'pdf' => '5-ciudanania-y-formas.pdf',
+                                                'pdf' => '5-ciudadania-y-formas.pdf',
                                                 'title' => 'Ciudadanía y formas de participación',
                                             ],
                                             [
@@ -163,7 +163,7 @@
                                             </div>
 
                                             <!-- Botón Descargar -->
-                                            <a href="{{ asset('/DnefDocumentos/public/pdf/1. PROMOVIENDO CIUDADANA/' . $c['pdf']) }}" download
+                                            <a href="{{ asset('/DnefDocumentos/public/pdf/1.%20PROMOVIENDO%20CIUDADANA/' . $c['pdf']) }}" download
                                                 class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                                 Descargar
                                             </a>
@@ -270,7 +270,7 @@
                                             Consejo de participación estudiantil (COPAE)
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2. FORMACION CIUDADANA/4-cartillaeducativa4.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/2.%20FORMACION%20CIUDADANA/4-cartillaeducativa4.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -514,7 +514,7 @@
                                             Resolución 046
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_046-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.%20RESOLUCIÓN%20VICEMINISTERIALES/RESOLUCIÓN-_046-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -531,7 +531,7 @@
                                             Resolución 026
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.RESOLUCION VICEMINISTERIAL/RESOLUCIÓN_026-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/5.%20RESOLUCIÓN%20VICEMINISTERIALES/RESOLUCIÓN_026-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
