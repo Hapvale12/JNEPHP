@@ -183,7 +183,7 @@
 
         <!-- Botón grande y centrado -->
         <button class="group relative border-none bg-white rounded-[0.75em] cursor-pointer text-[20px] font-bold z-0">
-            <a href="{{ url('/lineas-de-trabajo/votoInformado/eleccionesMunicipales') }}" class="z-0">
+            <a href="{{ url('/lineas-de-trabajo/votoInformado/eleccionesMunicipales') }}" target="_blank" class="z-0">
                 <span
                     class="block box-border border-2 border-white rounded-[0.75em] px-20 py-5 bg-[#fc6960] text-white transform transition-transform duration-100 ease-in group-hover:-translate-y-[0.33em] group-active:translate-y-0">
                     ELECCIONES MUNICIPALES COMPLEMENTARIAS 2025

@@ -51,7 +51,7 @@ class="relative w-full max-w-6xl mx-auto overflow-hidden">
                                 {{ $noticia['fecha'] ?? 'Fecha no disponible' }} {{-- Asume que hay un campo 'fecha' --}}
                             </span>
                             {{-- Botón "Leer más" --}}
-                            <a href="{{ $noticia['enlace'] ?? '#' }}"
+                            <a href="{{ $noticia['enlace'] ?? '#' }}" target="_blank"
                                class="text-white bg-[#BE1717] hover:bg-red-800 font-bold py-2 px-4 rounded transition-colors duration-200">
                                 Leer más
                             </a>

@@ -56,12 +56,12 @@
 
     <div class="w-full md:w-3/4 lg:w-3/4 flex flex-col md:flex-col lg:flex-row gap-4 justify-center items-center md:items-start mx-auto pt-4 md:pt-0">
 
-        <a href="https://museoelectoral.jne.gob.pe/visita2/index.html" class="w-2/3 sm:w-2/3 md:w-2/3 lg:w-full mx-auto">
+        <a href="https://museoelectoral.jne.gob.pe/visita2/index.html" target="_blank" class="w-2/3 sm:w-2/3 md:w-2/3 lg:w-full mx-auto">
             <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/1Mesa de trabajo 33 copia@4x-8.png') }}"
                 alt="Botón visita presencial" class="w-full h-auto object-contain">
         </a>
 
-        <a href="https://museoelectoral.jne.gob.pe/#contacto" class="w-2/3 sm:w-1/2 md:w-2/3 lg:w-full mx-auto">
+        <a href="https://museoelectoral.jne.gob.pe/#contacto" target="_blank" class="w-2/3 sm:w-1/2 md:w-2/3 lg:w-full mx-auto">
             <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/1Mesa de trabajo 33@4x-8.png') }}" alt="Botón visita virtual"
                 class="w-full h-auto object-contain">
         </a>

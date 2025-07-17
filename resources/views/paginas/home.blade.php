@@ -3,7 +3,8 @@
 @section('title', 'DNE')
 
 @section('content')
-    <section class="text-center">
+
+<section class="text-center">
         <!-- Fondo -->
         <div class="relative bg-cover bg-center bg-no-repeat w-full min-h-screen"
             style="background-image: url('{{ asset('/DnefDocumentos/public/img/FONDO-HOME.png') }}');">
@@ -24,25 +25,25 @@
     </div>
 
     <div class="w-full lg:w-1/2 grid grid-cols-2 grid-rows-2 gap-4 h-full"> {{-- CAMBIO CLAVE AQUÍ: md:w-1/2 a lg:w-1/2 --}}
-        <a href="{{ url('/lineas-de-trabajo/igualdadPolitica') }}"
+        <a href="{{ url('/lineas-de-trabajo/igualdadPolitica') }}" target="_blank"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
             <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 1 copia.png') }}" alt="Imagen 1"
                 class="w-full h-full object-cover">
         </a>
 
-        <a href="{{ url('/lineas-de-trabajo/votoInformado') }}"
+        <a href="{{ url('/lineas-de-trabajo/votoInformado') }}" target="_blank"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
             <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 2 copia.png') }}" alt="Imagen 2"
                 class="w-full h-full object-cover">
         </a>
 
-        <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE') }}"
+        <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE') }}" target="_blank"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
             <img src="{{ asset('/DnefDocumentos/public/img/Mesa de trabajo 3 copia.png') }}" alt="Imagen 3"
                 class="w-full h-full object-cover">
         </a>
 
-        <a href="{{ url('/lineas-de-trabajo/zonaEducativa') }}"
+        <a href="{{ url('/lineas-de-trabajo/zonaEducativa') }}" target="_blank"
             class="block w-full h-full overflow-hidden transition-opacity duration-300 hover:opacity-80 focus:opacity-70 active:opacity-70">
             <img src="{{ asset('/DnefDocumentos/public/img/1Mesa de trabajo 1 copia 2.png') }}" alt="Imagen 4"
                 class="w-full h-full object-cover">

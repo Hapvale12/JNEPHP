@@ -17,10 +17,10 @@
       <div class="w-full md:w-1/2 px-10 mb-6 md:mb-0">
         <h2 class="title-font font-semibold tracking-tight text-lg mb-3">Servicios DNE</h2>
         <nav class="list-none space-y-0.1">
-          <li><a href="https://cedie.jne.gob.pe/" class="hover:text-gray-300 cursor-pointer">CEDIE</a></li>
-          <li><a href="https://museoelectoral.jne.gob.pe/" class="hover:text-gray-300 cursor-pointer">Museo Electoral</a></li>
-          <li><a href="https://auladnef.jne.gob.pe/dnef/" class="hover:text-gray-300 cursor-pointer">Aula Virtual</a></li>
-          <li><a href="https://dnef.jne.gob.pe/perfil-electoral.html" class="hover:text-gray-300 cursor-pointer">Perfiles Electorales</a></li>
+          <li><a href="https://cedie.jne.gob.pe/" target="_blank" class="hover:text-gray-300 cursor-pointer">CEDIE</a></li>
+          <li><a href="https://museoelectoral.jne.gob.pe/" target="_blank" class="hover:text-gray-300 cursor-pointer">Museo Electoral</a></li>
+          <li><a href="https://auladnef.jne.gob.pe/dnef/" target="_blank" class="hover:text-gray-300 cursor-pointer">Aula Virtual</a></li>
+          <li><a href="https://dnef.jne.gob.pe/perfil-electoral.html" target="_blank" class="hover:text-gray-300 cursor-pointer">Perfiles Electorales</a></li>
         </nav>
       </div>
 

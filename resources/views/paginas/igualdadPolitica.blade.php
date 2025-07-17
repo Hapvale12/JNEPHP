@@ -46,7 +46,7 @@
 
     <div class="relative flex flex-col items-center justify-center mt-8 md:mt-12 lg:mt-16 py-10">
 
-        <a href="https://observaigualdad.jne.gob.pe" class="z-0">
+        <a href="https://observaigualdad.jne.gob.pe" target="_blank" class="z-0">
             <img src="{{ asset('/DnefDocumentos/public/img/IGUALDAD POLITICA/1Mesa de Trabajo 11@4x-8.png') }}" alt="Botón gráfico"
                 class="w-full max-w-[150px] md:max-w-sm transition-transform duration-150 ease-in hover:-translate-y-1 active:translate-y-0">
         </a>

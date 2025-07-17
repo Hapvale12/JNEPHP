@@ -190,7 +190,7 @@
             </p>
 
             <div class="relative inline-block">
-                <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE/inscripciones') }}"
+                <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE/inscripciones') }}" target="_blank"
                     class="bg-white text-[#6f6f6e] font-bold px-6 py-2 md:px-8 md:py-3 rounded-full shadow-md hover:bg-[#e58622] hover:text-white transition-all duration-300 text-base md:text-lg"> {{-- Ajustado tamaño botón --}}
                     INSCRÍBETE AQUÍ
                 </a>
@@ -263,7 +263,7 @@
             </p>
 
             <div class="relative inline-block">
-                <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE/inscripciones') }}"
+                <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE/inscripciones') }}" target="_blank"
                     class="bg-white text-[#6f6f6e] font-bold px-8 py-3 rounded-full shadow-md hover:bg-[#e58622] hover:text-white transition-all duration-300">
                     INSCRÍBETE AQUÍ
                 </a>

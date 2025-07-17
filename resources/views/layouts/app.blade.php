@@ -20,9 +20,7 @@
     @include('components.header')
 
     <div class="absolute top-[186px] z-40 w-full hidden md:block">
-    @if (!Request::is('/'))
-        <x-breadcrumb />
-    @endif
+    <x-breadcrumb />
 </div>
 
     <main class="flex-grow">
