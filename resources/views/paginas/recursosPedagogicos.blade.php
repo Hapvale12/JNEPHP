@@ -358,7 +358,7 @@
                                             Presentación del proceso electoral de los M.E Parte 2
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/PPT-MINEDUParte2') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/PPT-MINEDUParte2.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
