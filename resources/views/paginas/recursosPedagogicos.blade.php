@@ -664,7 +664,7 @@
 
                             <div class="grid grid-cols-1 gap-6">
 
-                                <a href="URL_DEL_JUEGO_1" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/juegos03/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego1.jpg') }}"
                                         alt="Juego 1: Nombre del Juego" class="block w-full h-auto object-contain">
@@ -673,16 +673,16 @@
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_2" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/juegos06/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego2.jpg') }}"
-                                        alt="Juego 2: Título Corto" class="block w-full h-auto object-contain">
-                                    <div
+                                        alt="Juego 2: Título Corto" class="block w-ful h-auto object-contain">
+                                    <divl
                                         class="absolute inset-0 flex items-center justify-center transition-opacity duration-300">
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_3" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/preguntasyrespuestas/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego3.jpg') }}" alt="Juego 3"
                                         class="block w-full h-auto object-contain">
@@ -691,7 +691,7 @@
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_4" target="_blank" rel="noopener noreferrer"
+                                <a href="http://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/juegos04/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego4.jpg') }}" alt="Juego 4"
                                         class="block w-full h-auto object-contain">
@@ -700,7 +700,7 @@
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_5" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/juegos04/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego5.jpg') }}" alt="Juego 5"
                                         class="block w-full h-auto object-contain">
@@ -709,7 +709,7 @@
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_6" target="_blank" rel="noopener noreferrer"
+                                <a href="https://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/juegos05/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego6.jpg') }}" alt="Juego 6"
                                         class="block w-full h-auto object-contain">
@@ -718,7 +718,7 @@
                                     </div>
                                 </a>
 
-                                <a href="URL_DEL_JUEGO_7" target="_blank" rel="noopener noreferrer"
+                                <a href="http://dnef.jne.gob.pe/html-dnef/ZonaEscolar/Juegos/pacman/juego.html" target="_blank" rel="noopener noreferrer"
                                     class="block relative w-full overflow-hidden rounded-lg shadow-md group transform transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
                                     <img src="{{ asset('/DnefDocumentos/public/img/RECURSOS/banner-juegos/juego7.jpg') }}" alt="Juego 7"
                                         class="block w-full h-auto object-contain">

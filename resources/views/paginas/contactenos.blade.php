@@ -8,7 +8,6 @@
         colorFondoDerecha='#c1c1c1' estiloImagen="margin-top: 1rem; max-height: 60rem;" margenTopContenido="mt-5"
         paddingContenido="px-0" paddingContenidoInterno="p-4 md:p-5" />
 
-    <!-- Espacio entre franjas -->
     <div class="h-2 bg-transparent"></div>
 
     <section class="text-gray-600 body-font relative">
@@ -32,7 +31,32 @@
                 {{-- Aquí va el título del formulario, si lo hay --}}
             </h2>
 
-            <form action="#" method="POST" class="space-y-5">
+            <form action="{{ route('contact.submit') }}" method="POST" class="space-y-5">
+                @csrf {{-- ¡CRÍTICO! Añade el token CSRF para seguridad en Laravel --}}
+
+                {{-- Mensajes de Éxito/Error y Errores de Validación (se mostrarán aquí) --}}
+                @if(Session::has('success'))
+                    <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
+                        <span class="block sm:inline">{{ Session::get('success') }}</span>
+                    </div>
+                @endif
+
+                @if(Session::has('error'))
+                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+                        <span class="block sm:inline">{{ Session::get('error') }}</span>
+                    </div>
+                @endif
+
+                @if ($errors->any())
+                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">
+                        <h4 class="font-bold">¡Error de validación!</h4>
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 
                 {{-- Nombres y Apellidos --}}
                 <div class="flex flex-col md:flex-row gap-4">
@@ -40,7 +64,7 @@
                         <label for="nombre" class="block text-lg text-black mb-1">
                             Nombres <span class="text-red-600">*</span>
                         </label>
-                        <input type="text" id="nombre" name="nombre" maxlength="15"
+                        <input type="text" id="nombre" name="nombre" maxlength="20"
                             pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" required
                             class="bg-[#e7e7e7] w-full border border-white rounded px-4 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-400"
                             title="Solo se permiten letras y un máximo de 15 caracteres">
@@ -50,7 +74,7 @@
                         <label for="apellidos" class="block text-lg text-black mb-1">
                             Apellidos <span class="text-red-600">*</span>
                         </label>
-                        <input type="text" id="apellidos" name="apellidos" maxlength="15"
+                        <input type="text" id="apellidos" name="apellidos" maxlength="20"
                             pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" required
                             class="bg-[#e7e7e7] w-full border border-white rounded px-4 py-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-400"
                             title="Solo se permiten letras y un máximo de 15 caracteres">
@@ -109,7 +133,6 @@
     </div>
 </section>
 
-    <!-- Espacio entre franjas -->
     <div class="h-12 bg-transparent"></div>
 
 @endsection
