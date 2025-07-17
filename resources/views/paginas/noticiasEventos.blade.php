@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <x-cabecera titulo="" descripcion="" imagen="img/contactenos.png" tamanoTitulo="" tamanoDescripcion=""
+    <x-cabecera titulo="" descripcion="" imagen="/DnefDocumentos/public/img/contactenos.png" tamanoTitulo="" tamanoDescripcion=""
         fondoContenido="#FFFFF00" colorFondoDerecha='#c1c1c1' estiloImagen="margin-top: 1rem; max-height: 60rem;"
         margenTopContenido="mt-5" paddingContenido="px-0" paddingContenidoInterno="p-4 md:p-5" />
 

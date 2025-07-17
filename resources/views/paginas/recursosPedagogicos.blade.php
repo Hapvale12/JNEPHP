@@ -342,7 +342,7 @@
                                             Presentación del proceso electoral de los M.E Parte 1
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte1.pdf') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/PPT-MINEDUParte1.pdf') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -358,7 +358,7 @@
                                             Presentación del proceso electoral de los M.E Parte 2
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/PPT-MINEDUParte2') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/PPT-MINEDUParte2') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>
@@ -374,7 +374,7 @@
                                             Hoja para Fiscalizadores Electorales Escolares
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/hoja_de_reporte_de_fiscalizadores.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/hoja_de_reporte_de_fiscalizadores.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -391,7 +391,7 @@
                                             Credencial
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.MUNICIPIOS ESCOLAR/CREDENCIAL.doc') }}" download
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/3.%20MUNICIPIOS%20ESCOLAR/CREDENCIAL.doc') }}" download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
                                     </a>

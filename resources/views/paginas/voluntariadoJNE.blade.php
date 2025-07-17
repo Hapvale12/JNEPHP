@@ -5,7 +5,7 @@
 @section('content')
 
 
-    <x-cabecera titulo="" descripcion="" imagen="img/VOLUNTARIADO/foto 1.png" tamanoTitulo="" tamanoDescripcion=""
+    <x-cabecera titulo="" descripcion="" imagen="/DnefDocumentos/public/img/VOLUNTARIADO/foto 1.png" tamanoTitulo="" tamanoDescripcion=""
         fondoContenido="#FFFFF00" colorFondoDerecha='#e58622' estiloImagen="margin-top: 1rem; max-height: 60rem;"
         margenTopContenido="mt-5" paddingContenido="px-0" paddingContenidoInterno="p-4 md:p-5" />
 

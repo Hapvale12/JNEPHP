@@ -7,7 +7,7 @@
 <x-cabecera 
         titulo=""
         descripcion=""
-        imagen="img/VOTO INFORMADO/foto 3v.png" 
+        imagen="/DnefDocumentos/public/img/VOTO INFORMADO/foto 3v.png" 
         tamanoTitulo="" 
         tamanoDescripcion=""
         fondoContenido="#FFFFF00"
