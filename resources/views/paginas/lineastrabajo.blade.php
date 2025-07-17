@@ -53,7 +53,7 @@
                         Promueve la participación política de mujeres, pueblos indígenas, afroperuanos y personas con
                         discapacidad.
                     </p>
-                    <a href="{{ url('/lineas-de-trabajo/igualdadPolitica') }}" target="_blank"
+                    <a href="{{ url('/lineas-de-trabajo/igualdadPolitica') }}"
                         class="mt-auto w-full text-center px-6 py-4 text-xl bg-[#056684] text-white rounded-md font-semibold hover:opacity-90 transition">
                         Explorar contenidos
                     </a>
@@ -66,7 +66,7 @@
                     <p class="text-xl text-gray-700 mb-6">
                         Orienta a electores y organizaciones políticas con enfoque cívico y electoral.
                     </p>
-                    <a href="{{ url('/lineas-de-trabajo/votoInformado') }}" target="_blank"
+                    <a href="{{ url('/lineas-de-trabajo/votoInformado') }}"
                         class="mt-auto w-full text-center px-6 py-4 text-xl bg-[#BE1717] text-white rounded-md font-semibold hover:opacity-90 transition">
                         Conoce tu voto
                     </a>
@@ -80,7 +80,7 @@
                         Impulsa la inclusión juvenil en la vida política y social para fortalecer la ciudadanía y
                         democracia.
                     </p>
-                    <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE') }}" target="_blank"
+                    <a href="{{ url('/lineas-de-trabajo/voluntariadoJNE') }}"
                         class="mt-auto w-full text-center px-6 py-4 text-xl bg-[#D68723] text-white rounded-md font-semibold hover:opacity-90 transition">
                         Quiero participar
                     </a>
@@ -93,7 +93,7 @@
                     <p class="text-xl text-gray-700 mb-6">
                         Recursos educativos para docentes, estudiantes y ciudadanos que promueven la ciudadanía democrática.
                     </p>
-                    <a href="{{ url('/lineas-de-trabajo/zonaEducativa') }}" target="_blank"
+                    <a href="{{ url('/lineas-de-trabajo/zonaEducativa') }}"
                         class="mt-auto w-full text-center px-6 py-4 text-xl bg-[#2DBEB2] text-white rounded-md font-semibold hover:opacity-90 transition">
                         Ir a la zona
                     </a>

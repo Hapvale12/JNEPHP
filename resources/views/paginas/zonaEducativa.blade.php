@@ -182,7 +182,7 @@
     <div class="w-full mx-auto flex flex-col md:flex-row justify-center items-center gap-2 px-2">
 
     <!-- Imagen izquierda -->
-    <a href="{{ url('/lineas-de-trabajo/zonaEducativa/recursosPedagogicos') }}" target="_blank"
+    <a href="{{ url('/lineas-de-trabajo/zonaEducativa/recursosPedagogicos') }}"
        class="transform transition-transform duration-300 hover:-rotate-3 w-full max-w-xs lg:max-w-sm">
         <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/botonesa1.png') }}" alt="Imagen izquierda"
              class="w-full h-auto max-h-60 lg:max-h-72 object-contain mx-auto">
@@ -195,7 +195,7 @@
     </div>
 
     <!-- Imagen derecha -->
-    <a href="{{ url('/lineas-de-trabajo/zonaEducativa/museoElectoral') }}" target="_blank"
+    <a href="{{ url('/lineas-de-trabajo/zonaEducativa/museoElectoral') }}"
        class="transform transition-transform duration-300 hover:rotate-3 w-full max-w-xs lg:max-w-sm">
         <img src="{{ asset('/DnefDocumentos/public/img/ZONA EDUCATIVA/botonesa2.png') }}" alt="Imagen derecha"
              class="w-full h-auto max-h-60 lg:max-h-72 object-contain mx-auto">

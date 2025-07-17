@@ -52,7 +52,7 @@
             </h2>
 
             <div class="escalera transform scale-75 md:scale-100 lg:scale-150 transform-origin-top lg:mt-16">
-                <a href="{{ url('/conocenos/informacion') }}" target="_blank">
+                <a href="{{ url('/conocenos/informacion') }}">
                     <x-escalera />
                 </a>
             </div>
