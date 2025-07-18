@@ -51,10 +51,10 @@
                 CAMINO HACÍA LA CIUDADANÍA ACTIVA
             </h2>
 
+            {{-- ESTE DIV ES EL QUE NO SE PUEDE TOCAR SEGÚN TU INSTRUCCIÓN --}}
             <div class="escalera transform scale-75 md:scale-100 lg:scale-150 transform-origin-top lg:mt-16">
-                <a href="{{ url('/conocenos/informacion') }}">
-                    <x-escalera />
-                </a>
+                <!-- <x-escalera redirect-base-url="{{ url('/conocenos/informacion') }}" /> -->
+                <x-escaleraInteractiva redirect-base-url="{{ url('/conocenos/informacion') }}" />
             </div>
 
         </div>

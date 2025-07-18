@@ -105,3 +105,8 @@ Route::post('/contador', function () {
 
     return response()->json(['count' => $count]);
 });
+
+Route::get('/conocenos/informacion', function () {
+    $imagenInicial = request('categoria', 'info');
+    return view('paginas.informacion', ['imagen_inicial' => $imagenInicial]);
+})->name('Informacion');

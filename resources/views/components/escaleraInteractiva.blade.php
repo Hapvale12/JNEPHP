@@ -1,7 +1,9 @@
+@props(['imagenInicial' => 'info'])
 <div class="h-4 bg-transparent"></div>
 
 <div x-data="{
-    imagenActiva: 'info',
+    imagenActiva: '{{ $imagenInicial }}', 
+    
     contenido: {
         info: {
             titulo: 'RECURSOS DE INFORMACIÓN ELECTORAL',
@@ -38,9 +40,17 @@
                 return 'text-gray-800';
         }
     }
-}" class="flex flex-col gap-4 w-full pt-6 px-4 bg-white
-    lg:pt-12 lg:pl-[6%] lg:pr-4 lg:grid lg:grid-cols-5 lg:grid-rows-5">
+}" 
+x-init="
+    // Este console.log es útil para depurar y ver con qué valor se inicializa
+    console.log('Escalera interactiva inicializada con:', this.imagenActiva);
+"
+class="flex flex-col gap-4 w-full pt-6 px-4 bg-white
+    lg:pt-12 lg:pl-[6%] lg:pr-4 lg:grid lg:grid-cols-5 lg:grid-rows-5
+    {{-- AÑADIDO: Manejo de desbordamiento horizontal y padding vertical para compensar escalado externo --}}
+    overflow-x-auto pb-4 pt-16 lg:pt-0"> {{-- **CLASES DE TAILWIND Y OVERFLOW AQUI** --}}
 
+    {{-- Contenido principal de texto e imagen dinámica (estas partes se muestran en este componente) --}}
     <div class="order-1 flex flex-col justify-center px-4 text-center
         md:pt-4
         lg:pt-0
@@ -82,6 +92,7 @@
                         <div class="text">04</div>
                     </button>
                 </div>
+                {{-- Aquí los botones simplemente cambian el estado de 'imagenActiva' --}}
                 <button @click="imagenActiva = 'participacion'" class="btn cube cube-hover">
                     <div class="bg-top">
                         <div class="bg-inner"></div>
@@ -127,6 +138,7 @@
                         <div class="text">03</div>
                     </button>
                 </div>
+                {{-- Aquí los botones simplemente cambian el estado de 'imagenActiva' --}}
                 <button @click="imagenActiva = 'formacion'" class="btn cube cube-hover">
                     <div class="bg-top">
                         <div class="bg-inner"></div>
@@ -217,6 +229,7 @@
                         <div class="text">01</div>
                     </button>
                 </div>
+
                 <button @click="imagenActiva = 'info'" class="btn cube cube-hover">
                     <div class="bg-top">
                         <div class="bg-inner"></div>
@@ -250,8 +263,8 @@
     </div>
 </div>
 
+
 <style>
-    /* From Uiverse.io by Yaya12085 */
     .escalera {
         display: flex;
         flex-direction: column;
@@ -570,5 +583,6 @@
         pointer-events: auto;
         /* Permite interacciones con el ratón */
     }
+    
 
 </style>

@@ -1,4 +1,7 @@
-<div class="escalera">
+@props(['redirectBaseUrl'])
+<div class="escalera
+    overflow-x-auto pb-4 pt-6 lg:pt-5" {{-- CLASES DE TAILWIND Y MANEJO DE OVERFLOW AQUI --}}
+    >
     <div class="escalon nivel4">
         <div class="lado">
             <button class="btn cube cube-hover cubo-lateral" type="button">
@@ -15,7 +18,8 @@
             </button>
         </div>
 
-        <button class="btn cube cube-hover" type="button">
+        {{-- BOTÓN PARTICIPACIÓN - AHORA ES UN ENLACE (<a>) --}}
+        <a href="{{ $redirectBaseUrl }}?categoria=participacion" class="btn cube cube-hover">
             <div class="bg-top">
                 <div class="bg-inner"></div>
             </div>
@@ -26,7 +30,7 @@
                 <div class="bg-inner"></div>
             </div>
             <div class="text">PARTICIPACIÓN</div>
-        </button>
+        </a>
 
         <div class="lado">
             <button class="btn cube cube-hover orientado-izquierda cubo-lateral" type="button">
@@ -62,7 +66,8 @@
             </button>
         </div>
 
-        <button class="btn cube cube-hover" type="button">
+        {{-- BOTÓN FORMACIÓN - AHORA ES UN ENLACE (<a>) --}}
+        <a href="{{ $redirectBaseUrl }}?categoria=formacion" class="btn cube cube-hover">
             <div class="bg-top">
                 <div class="bg-inner"></div>
             </div>
@@ -73,7 +78,7 @@
                 <div class="bg-inner"></div>
             </div>
             <div class="text">FORMACIÓN</div>
-        </button>
+        </a>
 
         <div class="lado">
             <button class="btn cube cube-hover orientado-izquierda cubo-lateral" type="button">
@@ -109,7 +114,8 @@
             </button>
         </div>
 
-        <button class="btn cube cube-hover" type="button">
+        {{-- BOTÓN COMUNICACIÓN - AHORA ES UN ENLACE (<a>) --}}
+        <a href="{{ $redirectBaseUrl }}?categoria=comunicacion" class="btn cube cube-hover">
             <div class="bg-top">
                 <div class="bg-inner"></div>
             </div>
@@ -120,7 +126,7 @@
                 <div class="bg-inner"></div>
             </div>
             <div class="text">COMUNICACIÓN</div>
-        </button>
+        </a>
 
         <div class="lado">
             <button class="btn cube cube-hover orientado-izquierda cubo-lateral" type="button">
@@ -134,7 +140,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('/DnefDocumentos/public/img/DORADO.png') }}" alt="Icono Dorado" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/DORADO.png') }}" alt="Icono Comunicación" class="img-icono">
                 </div>
             </button>
         </div>
@@ -156,7 +162,8 @@
             </button>
         </div>
 
-        <button class="btn cube cube-hover" type="button">
+        {{-- BOTÓN INFORMACIÓN - AHORA ES UN ENLACE (<a>) --}}
+        <a href="{{ $redirectBaseUrl }}?categoria=info" class="btn cube cube-hover">
             <div class="bg-top">
                 <div class="bg-inner"></div>
             </div>
@@ -167,7 +174,7 @@
                 <div class="bg-inner"></div>
             </div>
             <div class="text">INFORMACIÓN</div>
-        </button>
+        </a>
 
         <div class="lado">
             <button class="btn cube cube-hover orientado-izquierda cubo-lateral" type="button">
@@ -181,7 +188,7 @@
                     <div class="bg-inner"></div>
                 </div>
                 <div class="text">
-                    <img src="{{ asset('/DnefDocumentos/public/img/AZUL.png') }}" alt="Icono Azul" class="img-icono">
+                    <img src="{{ asset('/DnefDocumentos/public/img/AZUL.png') }}" alt="Icono Información" class="img-icono">
                 </div>
             </button>
         </div>
