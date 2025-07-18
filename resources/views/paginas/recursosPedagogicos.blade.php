@@ -445,7 +445,7 @@
                                             Cartilla Educativa
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4. CONSEJO DE PARTICIPACION ESTUDIANTIL/4-cartillaeducativa4.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4.%20CONSEJO DE PARTICIPACION ESTUDIANTIL/4-cartillaeducativa4.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
@@ -462,7 +462,7 @@
                                             Resolución
                                         </p>
                                     </div>
-                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4. CONSEJO DE PARTICIPACION ESTUDIANTIL/RESOLUCIÓN_026-2025-minedu.pdf') }}"
+                                    <a href="{{ asset('/DnefDocumentos/public/pdf/4.%20CONSEJO DE PARTICIPACION ESTUDIANTIL/RESOLUCIÓN_026-2025-minedu.pdf') }}"
                                         download
                                         class="mt-3 inline-block bg-[#BE1717] text-white px-4 py-2 rounded hover:bg-red-700 transition">
                                         Descargar
