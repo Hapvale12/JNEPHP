@@ -170,10 +170,15 @@
                 fetch('{{ route('contact.submit') }}', { // Apunta a tu ruta de Laravel (ContactController@submit)
                     method: 'POST',
                     headers: {
+                        'Accept': 'application/json', 
                         'Content-Type': 'application/json',
                         'X-CSRF-TOKEN': data._token // Obtener el token CSRF que Laravel genera
                     },
-                    body: JSON.stringify(data) // Convertir los datos a JSON
+                    body: JSON.stringify(data), // Convertir los datos a JSON
+                    //type application/json
+
+                    
+
                 })
                 .then(response => {
                     submitBtn.disabled = false; // Habilitar el botón de nuevo
