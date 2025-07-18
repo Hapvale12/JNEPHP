@@ -13,6 +13,15 @@
 
     <script src="//unpkg.com/alpinejs" defer></script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SPF21784V2');
+</script>
+
 </head>
 
 <body class="bg-white text-gray-900  flex flex-col">

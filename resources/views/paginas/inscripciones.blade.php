@@ -70,7 +70,7 @@
                     ¿QUIERES SER PARTE DEL<br>PRÓXIMO VOLUNTARIADO?
                 </h2>
 
-                <form action="#" method="POST" class="space-y-4 md:space-y-5">
+                <form action="{{ route('voluntariado.submit') }}" method="POST" class="space-y-4 md:space-y-5">
                     @csrf {{-- ¡IMPORTANTE para seguridad en Laravel! --}}
 
                     {{-- Nombres y Apellidos (IDs y Names ÚNICOS) --}}
