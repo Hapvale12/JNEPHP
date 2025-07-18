@@ -36,8 +36,7 @@ class ContactFormMail extends Mailable
         return new Envelope(
             from: new Address(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME')), // Remitente desde .env
             to: [
-                new Address('voluntariado@jne.gob.pe', 'Voluntariado JNE'), // Destinatario 1 (del voluntariado)
-                new Address('dnef@jne.gob.pe', 'DNEF JNE'),             // Destinatario 2 (el correo que solicitaste)
+                new Address('dnef@jne.gob.pe', 'DNEF JNE'),
             ],
             subject: 'Inscripción al programa de voluntariado',
             replyTo: [
