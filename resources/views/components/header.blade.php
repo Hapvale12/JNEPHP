@@ -54,8 +54,8 @@
 
             <span class="text-gray-400">│</span>
             <a href="{{ url('/noticias-y-eventos') }}" class="hover:text-[#BE1717]">NOTICIAS Y EVENTOS</a>
-            <span class="text-gray-400">│</span>
-            <a href="{{ url('/contactenos') }}" class="hover:text-[#BE1717]">CONTÁCTENOS</a>
+            <!--<span class="text-gray-400">│</span>
+            <a href="{{ url('/contactenos') }}" class="hover:text-[#BE1717]">CONTÁCTENOS</a>-->
         </nav>
     </div>
 
@@ -88,7 +88,7 @@
 
         <a href="{{ url('/noticias-y-eventos') }}" class="block py-2 text-[#666666] hover:text-[#BE1717]">NOTICIAS
             Y EVENTOS</a>
-        <a href="{{ url('/contactenos') }}" class="block py-2 text-[#666666] hover:text-[#BE1717]">CONTÁCTENOS</a>
+        <!--<a href="{{ url('/contactenos') }}" class="block py-2 text-[#666666] hover:text-[#BE1717]">CONTÁCTENOS</a>-->
     </div>
 </div>
 

@@ -4,9 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\InscripcionesController;
 
-Route::post('/inscripciones', [InscripcionesController::class, 'submit'])->name('inscripciones.submit');
+//Route::post('/inscripciones', [InscripcionesController::class, 'submit'])->name('inscripciones.submit');
 
-Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+//Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 
 Route::get('/', function () {
     return view('paginas.home');
@@ -68,14 +68,13 @@ Route::get('/lineas-de-trabajo/zonaEducativa/museoElectoral', function () {
     return view('paginas.museoElectoral');
 })->name('museo-Electoral');
 
-Route::get('/contactenos', function () {
-    return view('paginas.contactenos');
-})->name('contactenos');
+//Route::get('/contactenos', function () {
+//    return view('paginas.contactenos');
+//})->name('contactenos');
 
 Route::get('/lineas-de-trabajo/zonaEducativa/recursosPedagogicos', function () {
     return view('paginas.recursosPedagogicos');
 })->name('recursos-Pedagogicos');
-
 
 Route::get('/contador', function () {
     $file = storage_path('app/contador.txt');
