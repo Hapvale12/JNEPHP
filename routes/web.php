@@ -30,19 +30,15 @@ Route::get('/noticias-y-eventos', function () {
 
 Route::get('/noticias-y-eventos/JNE1', function () {
     return view('paginas.noticia1');
-})->name('Noticiero JNE');
+})->name('Noticiero JNE 1');
 
 Route::get('/noticias-y-eventos/JNE2', function () {
     return view('paginas.noticia2');
-})->name('Noticiero JNE');
+})->name('Noticiero JNE 2');
 
 Route::get('/noticias-y-eventos/JNE3', function () {
     return view('paginas.noticia3');
-})->name('Noticiero JNE');
-
-Route::get('/contactenos', function () {
-    return view('paginas.contactenos');
-})->name('contactenos');
+})->name('Noticiero JNE 3');
 
 Route::get('/lineas-de-trabajo/voluntariadoJNE', function () {
     return view('paginas.voluntariadoJNE');

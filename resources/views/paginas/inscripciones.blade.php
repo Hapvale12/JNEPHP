@@ -242,8 +242,7 @@
                 data[key] = value;
             });
 
-            fetch('{{ route('
-                    inscripciones.submit ') }}', {
+            fetch('{{ route('inscripciones.submit') }}', {
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json',

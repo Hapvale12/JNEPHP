@@ -189,8 +189,7 @@
             });
 
             // Enviar datos usando Fetch API
-            fetch('{{ route('
-                    contact.submit ') }}', { // Apunta a tu ruta de Laravel (ContactController@submit)
+            fetch('{{ route('contact.submit') }}', { // Apunta a tu ruta de Laravel (ContactController@submit)
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json',
