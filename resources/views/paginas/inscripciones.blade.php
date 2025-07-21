@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="relative w-full h-auto bg-white overflow-hidden">
-    {{-- CAMBIO: Añadido 'hidden md:block' para ocultar en móviles y tablets, y mostrar en desktop --}}
+    
     <div class="absolute top-0 right-0 h-full hidden lg:block w-[35%]" style="background-color: #e58622;"></div>
 
     <div class="relative z-10 max-w-8xl mx-auto px-2 md:px-8 py-8 lg:px-40 lg:pt-10">
@@ -40,9 +40,6 @@
 </div>
 
 <div class="relative z-10 max-w-8xl mt-8 mx-auto px-2 md:px-8 lg:px-50 pt-10">
-    {{-- Estos mensajes de éxito/error de sesión de Laravel ya no serán necesarios con el manejo AJAX,
-             pero los mantengo por si tienes alguna lógica de redirección que los use.
-             Los mensajes de éxito/error del formulario ahora serán manejados por JavaScript. --}}
     @if (session('success'))
     <div class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4" role="alert">
         <strong class="font-bold">¡Éxito!</strong>
@@ -71,11 +68,11 @@
                 ¿QUIERES SER PARTE DEL<br>PRÓXIMO VOLUNTARIADO?
             </h2>
 
-            {{-- INICIO DEL FORMULARIO ADAPTADO --}}
+            
             <form id="inscripcionesForm" class="space-y-4 md:space-y-5">
-                @csrf {{-- ¡CRÍTICO! Añade el token CSRF para seguridad en Laravel --}}
+                @csrf 
 
-                {{-- Mensajes de Éxito/Error y Errores de Validación (manejados por JS) --}}
+                
                 <div id="successMessage" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mb-4 hidden" role="alert">
                     <span class="block sm:inline"></span>
                 </div>
@@ -86,10 +83,10 @@
 
                 <div id="validationErrors" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4 hidden" role="alert">
                     <h4 class="font-bold">¡Error de validación!</h4>
-                    <ul></ul> {{-- Aquí se insertarán los errores de validación con JavaScript --}}
+                    <ul></ul> 
                 </div>
 
-                {{-- Nombres y Apellidos --}}
+                
                 <div class="flex flex-col md:flex-row gap-4">
                     <div class="w-full">
                         <label for="nombre" class="block text-base md:text-lg text-black mb-1">
@@ -114,7 +111,7 @@
                     </div>
                 </div>
 
-                {{-- DNI --}}
+                
                 <div>
                     <label for="dni" class="block text-base md:text-lg text-black mb-1">
                         DNI/CE <span class="text-red-600">*</span>
@@ -126,7 +123,7 @@
                         value="{{ old('dni') }}">
                 </div>
 
-                {{-- Teléfono y Correo --}}
+                
                 <div class="flex flex-col md:flex-row gap-4">
                     <div class="w-full">
                         <label for="telefono" class="block text-base md:text-lg text-black mb-1">
@@ -149,7 +146,6 @@
                     </div>
                 </div>
 
-                {{-- Mensaje --}}
                 <div>
                     <label for="message" class="block text-base md:text-lg text-black mb-1">
                         Mensaje <span class="text-red-600">*</span>
@@ -158,14 +154,13 @@
                         class="w-full border bg-white border-gray-300 rounded px-3 py-2 text-gray-700 focus:outline-none focus:ring-2 focus:ring-red-400 resize-none text-sm md:text-base">{{ old('message') }}</textarea>
                 </div>
 
-                {{-- Checkbox de Términos y Condiciones --}}
                 <div class="flex items-center mt-4">
                     <input type="checkbox" id="terms_conditions" name="terms_conditions"
                         class="h-4 w-4 text-red-600 focus:ring-red-500 border-gray-300 rounded">
                     <label for="terms_conditions" class="ml-3 block text-sm text-gray-900"> Acepto los <a href="https://portal.jne.gob.pe/portal_documentos/files/8d7ed37b-3d2f-4528-bc1c-ae75d9ef28e6.pdf" target="_blank" class="text-red-600 hover:text-blue-800 underline">Términos y Condiciones</a> <span class="text-red-600">*</span>
                     </label>
                 </div>
-                <div id="termsError" class="text-red-500 text-sm mt-1 hidden">
+                <div id="termsError" style="color:red" class="text-sm mt-1 hidden text-red-500 ">
                     Este campo es obligatorio.
                 </div>
 
@@ -176,28 +171,28 @@
                     </button>
                 </div>
             </form>
-            {{-- FIN DEL FORMULARIO ADAPTADO --}}
+            
 
         </div>
 
         <div
-            class="w-full flex flex-col items-center text-center p-4 md:p-8 order-2 lg:order-1 lg:ml-0 lg:w-2/5 lg:text-left lg:pt-20 lg:pr-2 lg:py-8">
-            <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/voluntariados-boton.png') }}" alt="Voluntariado"
-                class="max-w-[250px] md:max-w-[380px] h-auto object-contain mb-8 md:mb-16">
+    class="w-full flex flex-col items-center text-center p-4 md:p-8 order-2 lg:order-1 lg:ml-0 lg:w-2/5 lg:text-left lg:pt-20 lg:pr-2 lg:py-8">
+    <img src="{{ asset('/DnefDocumentos/public/img/VOLUNTARIADO/voluntariados-boton.png') }}" alt="Voluntariado"
+        class="**w-full** max-w-[250px] md:max-w-[380px] h-auto object-contain mb-8 md:mb-16">
 
-            <div class="text-gray-800 text-base md:text-lg font-semibold space-y-1">
-                <p><strong>Horario de atención:</strong></p>
-                <p>Lunes a Viernes de 8:30 a.m. - 4:30 p.m.</p>
-                <p><strong>E-mail:</strong><br>voluntariado@jne.gob.pe</p>
-                <p><strong>Teléfono:</strong><br>(511) 311 - 1700 - Anexo 1069</p>
-            </div>
-        </div>
+    <div class="text-gray-800 text-base md:text-lg font-semibold space-y-1">
+        <p><strong>Horario de atención:</strong></p>
+        <p>Lunes a Viernes de 8:30 a.m. - 4:30 p.m.</p>
+        <p><strong>E-mail:</strong><br>voluntariado@jne.gob.pe</p>
+        <p><strong>Teléfono:</strong><br>(511) 311 - 1700 - Anexo 1069</p>
+    </div>
+</div>
     </section>
 </div>
 
 <div class="h-20 bg-transparent"></div>
 
-{{-- SCRIPT PARA MANEJAR EL ENVÍO AJAX --}}
+
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Cambiado el ID del formulario y botón
@@ -209,8 +204,8 @@
         const errorMessageDiv = document.getElementById('errorMessage');
         const validationErrorsDiv = document.getElementById('validationErrors');
         const validationErrorsList = validationErrorsDiv.querySelector('ul');
-        const termsConditionsCheckboxInscripciones = document.getElementById('terms_conditions_inscripciones'); // NUEVO: Obtener el checkbox
-        const termsErrorInscripcionesDiv = document.getElementById('termsErrorInscripciones'); // NUEVO: Mensaje de error para el checkbox
+        const termsConditionsCheckboxInscripciones = document.getElementById('terms_conditions'); // NUEVO: Obtener el checkbox
+        const termsErrorInscripcionesDiv = document.getElementById('termsError'); // NUEVO: Mensaje de error para el checkbox
 
         function hideAllMessages() {
             successMessageDiv.classList.add('hidden');
@@ -224,7 +219,7 @@
             event.preventDefault();
 
             hideAllMessages();
-
+            console.log(termsConditionsCheckboxInscripciones)
             // NUEVO: Validar que el checkbox esté marcado antes de enviar
             if (!termsConditionsCheckboxInscripciones.checked) {
                 termsErrorInscripcionesDiv.classList.remove('hidden');
