@@ -50,28 +50,25 @@
                 ¿QUIERES SER PARTE DEL PRÓXIMO VOLUNTARIADO?
             </h2>
 
-            <p class="font-semibold text-lg pt-8 text-xl">
+            <p class="font-semibold pt-8 text-2xl">
                 Escríbenos a
                 <a href="mailto:voluntariado@jne.gob.pe" class=" text-gray-900 hover:underline">
                     voluntariado@jne.gob.pe
                 </a>
             </p>
 
-            <div class="flex flex-col gap-6 pt-6 md:flex-row md:gap-12">
-                <div class="text-lg flex flex-col gap-3">
-                    <p class="font-semibold">Horario de atención:</p>
-                    <p>Lunes a Viernes de 8:30 a.m. - 4:30 p.m.</p>
-                </div>
-
-                <div class="text-lg flex flex-col gap-3">
-                    <p class="font-semibold">Teléfono:</p>
-                    <p>(511) 311 - 1700 - Anexo 1069</p>
-                </div>
-            </div>
-
-        </div>
-
+            <div class="flex flex-col items-center gap-6 pt-6 md:flex-row md:gap-12">
+    
+    <div class="text-2xl flex flex-col gap-3">
+        <p class="font-semibold">Horario de atención:</p>
+        <p>Lunes a Viernes de 8:30 a.m. - 4:30 p.m.</p>
     </div>
+
+    <div class="text-2xl flex flex-col gap-3">
+        <p class="font-semibold">Teléfono:</p>
+        <p>(511) 311 - 1700 - Anexo 1069</p>
+    </div>
+    
 </div>
 <!-- Espacio entre franjas -->
 <div class="h-12 bg-transparent"></div>
