@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\InscripcionesController;
+
+Route::post('/inscripciones', [InscripcionesController::class, 'submit'])->name('inscripciones.submit');
 
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
 

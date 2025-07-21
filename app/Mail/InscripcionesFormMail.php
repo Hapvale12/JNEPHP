@@ -10,16 +10,16 @@ use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Mail\Mailables\Address;
 
-class ContactFormMail extends Mailable
+class InscripcionesFormMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $formData; 
+    public $formData;
 
     /**
      * Create a new message instance.
      */
-    public function __construct($formData) 
+    public function __construct($formData)
     {
         $this->formData = $formData;
     }
@@ -30,13 +30,11 @@ class ContactFormMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME')), 
-            to: [
-                new Address('dnef@jne.gob.pe', 'DNEF JNE'),
-            ],
-            subject: 'Registro de Contacto',
+            from: new Address(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME')),
+            // Aquí NO necesitamos 'to' porque ya lo especificamos en el controlador: Mail::to('inscripciones@jne.gob.pe')
+            subject: 'Nueva Inscripción JNE',
             replyTo: [
-                new Address($this->formData['email'], $this->formData['nombre'] . ' ' . $this->formData['apellidos']), // El correo del remitente del formulario para 'responder a'
+                new Address($this->formData['email'], $this->formData['nombre'] . ' ' . $this->formData['apellidos']),
             ],
         );
     }
@@ -47,9 +45,9 @@ class ContactFormMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.contact', // La vista Blade que contendrá el cuerpo del correo
+            view: 'emails.inscripcion', // Usará la nueva vista Blade para el correo de inscripciones
             with: [
-                'data' => $this->formData, // Pasamos los datos del formulario a la vista como '$data'
+                'data' => $this->formData,
             ],
         );
     }

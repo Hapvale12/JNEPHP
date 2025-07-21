@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Formulario de Contacto</title>
+    <title>Nueva Inscripción JNE</title>
     <style>
         body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
         .container { width: 80%; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 5px; }
@@ -16,15 +16,15 @@
 <body>
     <div class="container">
         <div class="header">
-            <h2>Nueva Solicitud solicitando mas información</h2>
+            <h2>Nueva Inscripción para voluntariado</h2>
         </div>
         <div class="content">
-            <p>Se ha realizado una nueva solicitud desde el Portal DNE solicitando mas información, se registro los siguientes datos:</p>
+            <p>Se ha recibido una nueva solicitud de inscripción con los siguientes datos:</p>
             <ul>
                 <li><strong>Nombres:</strong> {{ $data['nombre'] }}</li>
                 <li><strong>Apellidos:</strong> {{ $data['apellidos'] }}</li>
-                <li><strong>DNI:</strong> {{ $data['dni'] }}</li>
-                <li><strong>Celular:</strong> {{ $data['telefono'] }}</li>
+                <li><strong>DNI/CE:</strong> {{ $data['dni'] }}</li>
+                <li><strong>Celular de contacto:</strong> {{ $data['telefono'] }}</li>
                 <li><strong>Correo electrónico:</strong> {{ $data['email'] }}</li>
                 <li><strong>Mensaje:</strong><br>{{ $data['message'] }}</li>
             </ul>

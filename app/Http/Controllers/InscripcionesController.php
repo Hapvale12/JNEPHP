@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request; 
-use Illuminate\Support\Facades\Mail; 
-use App\Mail\ContactFormMail; 
-use Illuminate\Support\Facades\Session; 
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\InscripcionesFormMail;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
-class ContactController extends Controller
+class InscripcionesController extends Controller
 {
     public function submit(Request $request)
     {
@@ -24,7 +23,7 @@ class ContactController extends Controller
 
         if ($validator->fails()) {
             return response()->json([
-                'message' => 'Los datos proporcionados no son válidos.',
+                'message' => 'Los datos proporcionados no son válidos para la inscripción.',
                 'errors' => $validator->errors()
             ], 422);
         }
@@ -32,17 +31,18 @@ class ContactController extends Controller
         $validatedData = $validator->validated();
 
         try {
-            Mail::send(new ContactFormMail($validatedData)); 
+            // *** CAMBIO CLAVE AQUÍ: Enviar con la nueva clase Mailable y al correo de inscripciones ***
+            Mail::to('jordon.mccullough17@ethereal.email')->send(new InscripcionesFormMail($validatedData)); 
 
-            return response()->json(['message' => '¡Tu mensaje ha sido enviado correctamente! Nos pondremos en contacto contigo pronto.']); // <-- Respuesta JSON para éxito
+            return response()->json(['message' => '¡Tu inscripción ha sido enviada correctamente! Nos pondremos en contacto contigo pronto.']);
 
         } catch (\Exception $e) {
-            Log::error('Error al enviar correo del formulario de contacto: ' . $e->getMessage(), [
+            Log::error('Error al enviar correo del formulario de inscripciones: ' . $e->getMessage(), [
                 'file' => $e->getFile(),
                 'line' => $e->getLine(),
                 'trace' => $e->getTraceAsString(),
             ]);
-            return response()->json(['message' => 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.'], 500); // <-- Respuesta JSON para error
+            return response()->json(['message' => 'Hubo un problema al procesar tu inscripción. Por favor, inténtalo de nuevo más tarde.'], 500);
         }
     }
 }

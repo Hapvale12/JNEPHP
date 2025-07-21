@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Voto Informado')
+@section('title', 'Museo Electoral')
 
 @section('content')
 

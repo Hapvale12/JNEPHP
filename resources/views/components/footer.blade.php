@@ -30,7 +30,7 @@
         <nav class="list-none space-y-2">
           <li><a class="hover:text-gray-300 cursor-pointer">Jr. Nazca 598 - Jesús María - Lima</a></li>
           <li><a class="hover:text-gray-300 cursor-pointer">Central: (511) 311 - 1700</a></li>
-          <li><a class="hover:text-gray-300 cursor-pointer">E-mail: dnef@jne.gob.pe</a></li>
+          <li><a class="hover:text-gray-300 cursor-pointer">E-mail: educacion@jne.gob.pe</a></li>
         </nav>
       </div>
     </div>
